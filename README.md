@@ -7,7 +7,7 @@ Deploying bold, energetic colours with sleek fonts and intuitive user-experience
 ## UX
  
 
-### Product Owner: Mark, Owner of Atomic Fitness
+### Product Owner Epic: Mark, Owner of Atomic Fitness
 
 > I opened Atomic Fitness in 2015. 
 > The gym has been successful through word-of-mouth and an active social media presence (facebook, twitter & instagram).
@@ -26,7 +26,7 @@ Deploying bold, energetic colours with sleek fonts and intuitive user-experience
 > Consequently, good design for mobile screens is a must.
 
 
-### User Story 1: Marie
+### User Epic: Marie
 
 > I have been going to Atomic Fitness for 6 months.
 > I find using facebook and instagram for discovering information about the gym to be inconvenient. Sometimes it is hard to tell what is old, expired content and what is still relevant.
@@ -35,13 +35,26 @@ Deploying bold, energetic colours with sleek fonts and intuitive user-experience
 > I would primarily view the site on my mobile phone.
 
 
-### User Story 2: Martin
+### User Epic: Martin
 
 > I am new to the area and want to explore what amenities are nearby like gyms and parks.
 > I dislike social media as I am concerned about my privacy and I do want to be tied to using multiple apps on my phone or tablet.
 > I would use search engines to discover information about my local area
 > I would want any website to tell me where the gym is, what services it offers, the price.
 > I would be more likely to sign up if there was an easily accessible and convenient way online.
+
+### User Stories
+
+- As a user, I want to view what services this gym offers so I can decide if it offers what I want;
+- As a user, I want to be able to see the time-table of gym classes so I can attend them;
+- As a user, I want to view what trainers work at the gym so I can see who teaches at the gym;
+- As a user, I want to use the site on mobile and navigate it easily so I can access the content I want when I want it;
+- As a user, I want to have a means to contact the gym so I can get more information;
+- As a user, I want to view where the gym is located so I can get there;
+- As a user, I want to view pictures of the gym;
+- As a user, I want to know what the gym's opening hours are so I can attend the gym and use its services;
+- As a user, I want a login and sign-up page;
+- As a user, I want a way to check the gym's price list so I can know how much the gym costs;
 
 
 ### Wireframes 
@@ -119,11 +132,17 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- Nil
 
 ### Media
-- The photos used in this site were obtained from ...
+- Image 1 - 'weights' - by [Samuel Girven](https://unsplash.com/@samuelgirven/portfolio) at [Unsplash](https://unsplash.com/photos/VJ2s0c20qCo)
+- Image 2 - 'treadmills' - by [Ryan de Hamer](https://unsplash.com/@rdehamer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") at [Unsplash](https://unsplash.com/s/photos/gym-girl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 
 ### Acknowledgements
 
 - I received inspiration for this project from X
+- I received inspiration for this project from [F45](https://f45training.ie/).
+- I received inspiration for this project from [Signal](https://www.signal.org/)
