@@ -138,11 +138,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 - Image 1 - 'weights' - by [Samuel Girven](https://unsplash.com/@samuelgirven/portfolio) at [Unsplash](https://unsplash.com/photos/VJ2s0c20qCo)
 - Image 2 - 'treadmills' - by [Ryan de Hamer](https://unsplash.com/@rdehamer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") at [Unsplash](https://unsplash.com/s/photos/gym-girl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-- image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- Image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- Icon - 'location arrow' from [FontAwesome](https://fontawesome.com/icons/location-arrow?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-location-arrow"></i>)
+- Icon - 'phone-alt' from [FontAwesome](https://fontawesome.com/icons/phone-alt?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-phone-alt"></i>)
+- Icon - 'atom' from <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+- Image 4 - 'Personal Trainer' - by [Jonathan Borba](https://unsplash.com/@jonathanborba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- Image 5 - 'Orange Weights - by [Ivan Samkov](https://www.pexels.com/@ivan-samkov?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at [Pexels](https://www.pexels.com)
+- Image 6 - 'Kettle Bell'- by [Andrea Piacquadio](https://www.pexels.com/@olly?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at  [Pexels](https://www.pexels.com)
+- Image 7 - 'lifting barbell' - by [Victor Freitas](https://www.pexels.com/@victorfreitas?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at [Pexels](https://www.pexels.com)
+- Profile Image 1 - 'man with glasses' - from [Pexels](https://www.pexels.com) - creative commons licence
+- Profile Image 2 - 'woman with dark hair' - from [Pexels](https://www.pexels.com) - creative commons licence
+- Profile Image 3 - 'guy in denim jacket' - by [Sindre Strøm](https://www.stromfotografi.com) from [Pexels](https://www.pexels.com).
+
+
+
 
 
 ### Acknowledgements
 
 - I received inspiration for this project from X
 - I received inspiration for this project from [F45](https://f45training.ie/).
+- I received inspiration from this project from [UFC Gym](https://www.ufcgym.com/)
 - I received inspiration for this project from [Signal](https://www.signal.org/)
