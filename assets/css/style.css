@@ -313,90 +313,43 @@ hr {
 /* ---------------------------------------------------------------- SECTION: image-and-quotes ----------------- */
 
 
-.fist-bump-image {
-    
-    background-image: url(../images/victor-freitas-nlZTjUZX2qo-unsplash.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 14rem;
-    background-repeat: no-repeat;
-    background-position: center center;
+.image-and-quotes {
 
+    color:#D0CCd0;
 }
 
+.image-and-quotes .columns {
 
-.image-and-quotes .container {
+    margin-left: .75rem;
+    margin-right: .75rem;
+    margin-top: .75rem;
+} 
 
-    position: relative;
-    margin: 0 auto;
-    background-color: #423E3b;
-    width: 100%;
-    font-size: 24px;
-  
 
+.image-and-quotes .column {
+    
+    display: block;
+    padding: .75rem;
 }
 
+.client-pic {
 
-.left-quote,
-.right-quote {
-    
-    margin: 0 auto;
-    padding: .5rem .5rem;
-    font-size: 1.25rem;
-    
-}
-
-
-
-.quote-content-header .subtitle {
-
-    
-    margin: 0 auto;
-    font-weight: 700;
-    padding-top: 1rem;
-    
-}
-
-.quote-1, 
-.quote-2,
-.circle-profile-image-1,
-.circle-profile-image-2 {
-    padding: 15px 10px;
-    min-height: 96px;
-    margin: 36px 24px;
-    
-}
-
-.quote-1,
-.quote-2 {
-
-    max-width: 300px;
-    background-color:#D0CCd0;
-
-}
-
-.circle-profile-image-1, 
-.circle-profile-image-2 {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 128px;
-    width: 128px;
+    height: auto;
+    max-width: 100%;
     border-radius: 50%;
-    margin: 0 auto;
-   
+
 }
 
-.circle-profile-image-1 {
-
-    background-image: url(../images/pexels-nathan-cowley-634021.jpg);
-    
+.client-name {
+    color:#D0CCd0;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.circle-profile-image-2 {
+.client-quote {
 
-    background-image: url(../images/pexels-murat-esibatir-4355346.jpg);
-    
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 
@@ -448,4 +401,4 @@ hr {
     }
 
 }
-/* ----------------------------------------------------------------*/
+/* ---------------------------------------------------------------- */
