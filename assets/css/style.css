@@ -169,6 +169,9 @@ hr {
 /* ------------------------------------------------------------------------------------------------------------- INDEX.HTML -------- */
 
 
+
+/* ----------------------------------------------------------------------- Section: landing-page ----- */ 
+
 #landing-page-hero {
 
     height: 568px;
@@ -243,6 +246,68 @@ hr {
     font-size: 24px;
 
 }
+
+
+/* ----------------------------------------------------------------------- Section: location & contact ----- */
+
+
+.location-and-contact {
+    
+    background-color: #D6CFCB;
+    background-size: cover;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: .5em;
+    
+}
+
+
+.location-and-contact div {
+    
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.location-arrow a {
+
+    position: relative;
+    font-size: 450%;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    color:#423E3B;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+
+.location-arrow a i {
+    
+    width: 108px;
+    height: 108px;
+    color:#423E3B;
+    margin: auto;
+
+}
+
+.location-and-contact span hr {
+    
+    margin: 24px auto;
+    width: 50%;
+    background-color:#DC2F02;
+    height: 4px;
+    
+}
+
+.address a, 
+.contact a {
+
+    color:#423E3B;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
 
 /* ------------------------------------------------------------------------------------------------------ MEDIA QUERIES  ---- */
 
