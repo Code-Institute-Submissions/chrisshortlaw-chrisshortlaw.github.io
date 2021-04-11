@@ -61,7 +61,7 @@ Deploying bold, energetic colours with sleek fonts and intuitive user-experience
 
 *Insert links to wireframes here*
 
-
+A mock up was built using Figma. Colour theme was generated with Coolors. 
 
 -------------------------------
 
@@ -72,20 +72,28 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### index.html
+- NavBar - Allows users to navigate the site, fixed to top of screen so users always have means of navigation, provides useful outline of site and sections.
+- Landing Page: Hero & CTA. Hero image reinforces color theme, call to action includes a button linking users to sign up page.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+
+#### index.html
 - Landing page: single scrolling page with bright title/hero image, callouts for promotions & challenges, quotes from happy members, scrolling to section focussing on location & images, section on services (with link to class time-table/info page) section on gym instructors/trainers, terminating with a sign-up form.
-    - Nav Bar: located on header allows easy navigation between different pages and sections on landing page. Consider nested menu.
+    
     - Header: Bold colours which will be consistent across pages and possibly fixed scrolling on landing page.
     - Footer: consistent across pages to reinforce theme of site. Links to social media.
-- Classes/About Page: tells users about services in detail, elaborates on landing page section. Contains time-table covering the week.
+
+#### classes-morning.html, classes-evening.html, classes-afternoon.html
+- Classes: tells users about services in detail, elaborates on landing page section. Contains time-table covering the week.
+
 - Price List: Simple, static price list.
+
 - Challenges page: Lists 'challenges' and promotions. Include 'leaderboard' for challenges (styled table).
+
 - Gallery: Reinforces happy members. Tiled images á la pinterest.
 
 
