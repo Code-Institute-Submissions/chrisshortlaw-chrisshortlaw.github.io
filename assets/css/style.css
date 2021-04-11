@@ -2,20 +2,27 @@
 
 /* ---------------------------------------------------------------------------------------------------- GENERAL ---- */
 
+
 h1, 
 h2, 
 h3, 
 h4, 
 h5 {
+
     font-family: 'Spartan', sans-serif;
+
 }
 
 p {
+
     font-family: 'Montserrat', sans-serif;
+
 }
 
 html {
+
     font-size: 100%;
+
 }
 
 hr {
@@ -24,55 +31,71 @@ hr {
     width: 100%;
     background-color:#DC2F02;
     height: 0.16rem;
+
 }
 
 .deep-orange-bg {
+
     background-color: #CD3110;
+
 }
 
 .light-orange-bg {
+
     background-color: #DC2f02;
+
 }
 
 .light-grey-bg {
+
     background-color: #D6CFCB;
+
 }
 
 .dark-grey-bg {
+
     background-color: #423E3b;
+
 }
 
 .blue-bg {
+
     background-color: #37718E;
 }
 
 .deep-orange-text {
+
     color: #CD3110;
+
 }
 
 .light-orange-text {
+
     color: #DC2f02;
 }
 
 .light-grey-text {
+
     color: #D6CFCB;
 }
 
 .dark-grey-text {
+
     color: #423E3b;
 }
 
 .blue-text {
+
     color: #37718e;
+
 }
-
-
-
 
 
 /* ------------------------------------------------------------------------------------------------------- NAVBAR ---- */
 
+
 .atomic-brand {
+
     color: #CD3110;
     text-transform: uppercase;
     font-size: 1rem;
@@ -88,36 +111,42 @@ hr {
 
 }
 
-
 .navbar-brand a i {
-    color: #CD3110;
 
+    color: #CD3110;
     font-size: 1.25rem;
 
 }
 
 .navbar-brand a i:hover {
+
     color:#D0CCd0;
 }
 
 .navbar-burger {
+
     color: #CD3110;
 
 }
 
-
 #atomic-navbar {
+
     color: #CD3110;
+
 }
 
 .navbar {
+
     background-color: #423E3B;
     font-size: 1.5rem;
+
 }
 
 .navbar-item h3 {
+
     color: #CD3110;
     font-weight: 700;
+
 }
 
 .navbar-start {
@@ -128,17 +157,21 @@ hr {
 
 /* ------------------------------------------------------------------------------------------------------------- FOOTER ------------ */
 
+
 .footer h2 {
+
     text-transform: uppercase;
     font-weight: 700;
+
 }
 
 
 /* ------------------------------------------------------------------------------------------------------------- INDEX.HTML -------- */
 
+
 #landing-page-hero {
 
-    min-height: 450px;
+    height: 568px;
     background-image: url(../images/pexels-ivan-samkov-4162490.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -147,31 +180,30 @@ hr {
 
 }
 
-#landing-page-hero .container {
-
-    
-}
-
-.button-and-article {
+.button-and-article-container {
 
     position: relative;
     margin: 0 auto;
     max-width: 80%;
-    top: 7rem;
-
+    top: 20px;
+    height: 30rem;
+ 
 }
 
 .landing-page-header {
+
     color: #ffffff;
-    position: relative;
+    position: absolute;
     background-color: rgba(66, 62, 59, 0.5);
     width: 100%;
-    height: 33%;
-    margin: 0 auto;
+    bottom: 30%;
+    margin-top: 40%;
+    padding: 1rem;
 
 }
 
 .landing-page-header h2 {
+
     font-weight: 800;
     text-transform: uppercase;
     font-size: 24px;
@@ -179,20 +211,23 @@ hr {
 }
 
 .landing-page-header hr {
+
     margin: .75rem auto;
     width: 75%;
+
 }
 
 .button-container {
 
-    position: relative;
-    top: 1rem;
-    margin: 0 auto;
+    position: absolute;
+    margin-top: 1.5rem;
     width: 100%;
+    bottom: 12%;
     
 }
 
 .button-container .button {
+
     width: 100%;
     background-color: #DC2F02;
     padding: 10px;
@@ -201,31 +236,56 @@ hr {
 }
 
 .button-container .button p {
+
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
+
 }
-
-
-
-
-
-
-
 
 /* ------------------------------------------------------------------------------------------------------ MEDIA QUERIES  ---- */
 
+
 /* breakpoints of mobile : screen < 767px; tablet: 768px < screen < 1002px; desktop: screen < 1003px; */
+
 
 @media only screen and (min-width: 767px) {
 
+
     /* ------------------------------------------INDEX.HTML ------ */
-    .button-and-article {
-        float: right;
-        max-width: 40%;
-        right: 3rem;
+    
+
+    .button-and-article-container {
+        
+        max-width: 25rem;
+        left: 6rem;
+        margin-left: 2rem; 
+        
     }
 
+    .landing-page-header {
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+       
+    }
 
+    .landing-page-header h2 {
+        font-size: 2rem;
+    }
+
+    .landing-page-header h3 {
+
+        font-size: 1.5rem;
+
+    }
+
+    .button-container {
+
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+
+    }
 }
