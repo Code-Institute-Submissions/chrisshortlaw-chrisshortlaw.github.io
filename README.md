@@ -151,6 +151,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 - Image 2 - 'treadmills' - by [Ryan de Hamer](https://unsplash.com/@rdehamer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") at [Unsplash](https://unsplash.com/s/photos/gym-girl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+- headshot 1 - by murat esibatir from [Pexels](https://www.pexels.com/photo/gorgeous-young-black-woman-with-afro-hair-4355346/)
+- headshot 2 - by  Nathan Cowley from [Pexels](https://www.pexels.com/photo/grayscale-portrait-photography-of-man-634021/)
 - Image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 - Icon - 'location arrow' from [FontAwesome](https://fontawesome.com/icons/location-arrow?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-location-arrow"></i>)
 - Icon - 'phone-alt' from [FontAwesome](https://fontawesome.com/icons/phone-alt?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-phone-alt"></i>)
