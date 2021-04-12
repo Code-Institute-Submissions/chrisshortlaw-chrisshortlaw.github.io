@@ -258,7 +258,7 @@ hr {
     background-size: cover;
     width: 100%;
     font-size: 24px;
-    margin-bottom: .5em;
+    
     
 }
 
@@ -351,6 +351,192 @@ hr {
     font-weight: 500;
     font-size: 1rem;
 }
+
+
+/* ----------------------------------------------------------------SECTION: Services ------------------------------------ */
+
+
+.services {
+        
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+.services-class-header-image {
+
+    background-image: url(../images/pexels-andrea-piacquadio-3766211.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 33vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    clear: both;
+    z-index: 1;
+
+}
+
+.services-class-header-image h3 {
+
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.services-class-container {
+
+    position: relative;
+    background-color: #ffffff;
+    background: linear-gradient(90deg,rgba(214, 207, 203, 0.3),rgba(66,62,59, 0.9));
+    z-index: 0;
+    
+}
+
+.services-class-container article {
+
+    position: relative;
+    margin: 0 auto;
+    width: 66vw;
+}
+
+.atom-logo {
+
+    color: #37718e;
+    position: absolute;
+    font-size: 20rem;
+    top: 20%;
+    right: 55%;
+    margin-top: 1.5rem;
+    z-index: 0;
+
+}
+
+
+.class-text-block {
+    
+    background-color: rgba(66,62,59, 0.7);
+    padding: 1rem 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+}
+
+.class-text-block p {
+
+    color: #ffffff;
+
+}
+
+.services article br {
+
+    height: 5vh;
+}
+
+.services article a {
+   
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 10px 10px;
+    height: 50px;
+
+}
+
+.services article a p {
+
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+
+.services-pt-header-image {
+
+    background-image: url(../images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 33vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.services-pt-header-image h3 {
+
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+
+.services-pt-container {
+
+    background: linear-gradient(270deg,rgba(66, 62, 59, 0.2),rgba(66,62,59, 0.9));
+    position: relative;
+    z-index: 0;
+
+}
+
+.atom-logo-orange {
+
+    color: #DC2F02;
+    position: absolute;
+    font-size: 20rem;
+    top: 20%;
+    left: 50%;
+    margin-top: 1.5rem;
+
+}
+
+.services-pt-container article {
+
+    position: relative;
+    margin: 0 auto;
+    width: 66vw;
+
+}
+
+.pt-text-block {
+    /* Transparency combined with blur gives a glass effect - glassmorphism */
+    background-color: rgba(255,255, 255, 0.7);
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+}
+
+.services-pt-container article a {
+
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 50px;
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------ FOOTER ------------ */
+
 
 
 /* ------------------------------------------------------------------------------------------------------ MEDIA QUERIES  ---- */

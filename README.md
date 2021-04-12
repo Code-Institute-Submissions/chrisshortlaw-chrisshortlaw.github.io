@@ -180,3 +180,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 - I received inspiration for this project from [F45](https://f45training.ie/).
 - I received inspiration from this project from [UFC Gym](https://www.ufcgym.com/)
 - I received inspiration for this project from [Signal](https://www.signal.org/)
+- Glassmorphism: from [uxdesign](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9)
