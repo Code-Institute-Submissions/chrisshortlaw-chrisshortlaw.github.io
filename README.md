@@ -75,6 +75,15 @@ In this section, you should go over the different parts of your project, and des
 #### index.html
 - NavBar - Allows users to navigate the site, fixed to top of screen so users always have means of navigation, provides useful outline of site and sections.
 - Landing Page: Hero & CTA. Hero image reinforces color theme, call to action includes a button linking users to sign up page.
+- Location & contact section
+- Customer quotes section
+- Services section - classes & personal training
+- Section on meet our trainers
+- Footer (to be reworked/styled)
+
+##### classes-morning.html
+
+- Responsive page with hero image, and list of classes. Uses Bulma's responsive tiles to display individual classes. 
 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:

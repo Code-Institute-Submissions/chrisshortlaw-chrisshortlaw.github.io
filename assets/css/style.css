@@ -441,6 +441,7 @@ hr {
 .services article br {
 
     height: 5vh;
+
 }
 
 .services article a {
@@ -513,7 +514,8 @@ hr {
 }
 
 .pt-text-block {
-    /* Transparency combined with blur gives a glass effect - glassmorphism */
+    /* Transparency combined with blur gives a glass effect - glassmorphism
+       Does not work on Firefox or older IE browsers */
     background-color: rgba(255,255, 255, 0.7);
     padding: 1rem 1rem;
     margin-top: 1rem;
@@ -532,10 +534,211 @@ hr {
 }
 
 
+/* --------------------------------------------------------------------------------------SECTION: MEET OUR TRAINERS ----------------*/
+
+
+.meet-trainers {
+
+    padding: 1rem 0;
+
+}
+
+.meet-trainers h2 {
+
+    margin: 1rem 1.25rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    
+}
+
+.trainer-profile-container {
+    
+    position: relative;
+    width: 75vw;
+    margin: 0 auto;
+
+}
+
+.trainer-profile {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.profile-pic-1,
+.profile-pic-2,
+.profile-pic-3 {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+
+}
+
+.profile-pic-1 {
+
+    background-image: url(../images/pexels-sindre-strøm-1040880.jpg);
+
+}
+
+.profile-pic-2 {
+
+    background-image: url(../images/pexels-pixabay-415829.jpg);
+
+}
+
+.profile-pic-3 {
+
+    background-image: url(../images/pexels-pixabay-220453.jpg);
+
+}
+
 
 
 
 /* ------------------------------------------------------------------------------------------------------ FOOTER ------------ */
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------- CLASSES.HTML  ---- */
+
+
+.table {
+    overflow: auto;
+}
+
+.gym-timetable-header {
+    
+    background-color: #DC2f02;
+}
+
+.gym-timetable-wrapper {
+    margin: 0 20px 0 20px;
+}
+
+.gym-timetable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .gym-timetable-morning {
+    background-color: #D0CCD0;
+} */
+
+.gym-class-tiles {
+
+    background-color: #D0CCd0;
+    }
+
+
+#gym-class-hero {
+
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/pexels-jonathan-borba-3076514.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.gym-class-header {
+    position: absolute;
+    color: #000000;
+    font-size: 300%;
+    font-weight: 700;
+    z-index: 10;
+    width: 40%;
+    height: 20%;
+    margin-top: 125px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+
+.gym-class-header h1 {
+    font-weight: 700;
+    
+}
+
+
+/* .morning-image {
+    
+    height: 300px;
+    background-image: url(../images/pexels-jonathan-borba-3076514.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    width: 100%;
+
+    
+    background-color:#CD3110;
+    
+} 
+
+.morning-image h1 {
+    color: #000000;
+    
+} */
+
+.opaque-overlay-white {
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+.class-time {
+
+    margin-left: 10vw;
+
+}
+
+
+.gym-day {
+
+    font-weight: 700;
+
+}
+
+
+
+/* -------------------------------------------------------- TILE STYLES --- CLASSES.HTML ---- */
+.cardio {
+    background-color: #CD3110;
+}
+
+.elite {
+    background-color: #423E3b;
+}
+
+.elite .title, .cardio .title, .strength .title {
+    color: #ffffff;
+}
+
+.elite p, .cardio p, .strength p {
+    color: #ffffff;
+}
+
+.strength {
+    background-color: #37718E;
+}
+
+.blank {
+    background-color:#D0CCd0;
+    box-shadow: 0px 0px;
+
+}
 
 
 
