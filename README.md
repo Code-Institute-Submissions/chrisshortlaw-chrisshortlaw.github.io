@@ -1,6 +1,8 @@
 # Atomic Fitness
 
-A static, single-scrolling website to promote a local gym. 
+This will be a static, single-scrolling website to promote a local gym.
+
+In this project, I shall experiment with Bulma, and endeavour to create an attractice and responsive website using html & css and minimal javascript.
 
 Deploying bold, energetic colours with sleek fonts and intuitive user-experience, the site will supply information to existing members whilst providing an easy entry point for new and potential members. Key parts of the site will be an impressive landing page detailing the various classes, profiles of the gym instructors and their personal training philosophies, a site highlighting events and 'challenges' members can participate in (e.g. A daily step competition (Winner gets 3 months free membership), a weight-loss challenge, a 5 kg to 50kg power-lifting challenge), and a sign-up form. Other pages will be comprised of a gallery, a weekly time-table (static), and a membership price list.
  
