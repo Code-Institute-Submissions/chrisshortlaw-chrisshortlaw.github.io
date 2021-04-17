@@ -650,6 +650,19 @@ hr {
     background-attachment: fixed;
 }
 
+#gym-class-hero-afternoon {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/pexels-jonathan-borba-3076516.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
 .gym-class-header {
     position: absolute;
     color: #000000;
