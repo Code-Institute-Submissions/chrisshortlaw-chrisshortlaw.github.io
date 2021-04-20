@@ -118,6 +118,17 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
+### Responsiveness:
+
+Testing for responsiveness was carried out throughout the project using FireFox's developer tools. The site is mobile first, focussing on the iphone 5 SE as the standard (320px by 568px) and scaling upwards from there. 
+
+Chromium based browsers were also used to test features and compatibility. These consisted ofChromium on a Linux machine and Microsoft Edge (Chromium based: version 90.0.818.42) on a Windows machine.
+
+Some features, such a glassmorphism use features which are disabled by default on FireFox and are unavailable on older browsers such as Internet Explorer. These were either turned off when using those browsers or left undisturbed where there was no discernible loss of quality or experience.
+
+The project was tested and found to be compatible with multiple screen size up to tablet (786px by  XXX ) and desktop (1920 by 1080). Viewing and usability was possible in both portrait and landscape mode.
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.

@@ -106,7 +106,7 @@ hr {
 
 .atomic-brand h1 {
 
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 900;
 
 }
@@ -114,14 +114,17 @@ hr {
 .navbar-brand a i {
 
     color: #CD3110;
-    font-size: 1.25rem;
+    font-size: 1rem;
 
 }
 
+
+.navbar-brand a:hover,
 .navbar-brand a i:hover {
 
     color:#D0CCd0;
 }
+
 
 .navbar-burger {
 
@@ -180,6 +183,9 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #423E3B;
+    /* Testing Background-blend-mode */
+    background-blend-mode: luminosity;
     width: 100%;
 
 }
@@ -198,7 +204,7 @@ hr {
 
     color: #ffffff;
     position: absolute;
-    background-color: rgba(66, 62, 59, 0.5);
+    background-color: rgba(66, 62, 59, 0.6);
     width: 100%;
     bottom: 30%;
     margin-top: 40%;
@@ -309,6 +315,18 @@ hr {
 
 }
 
+/* ---------------------------------------------------------------- SECTION: Fist Bump Image ------------------ */
+
+.fist-bump-image {
+    width: 100%;
+    min-height: 250px;
+    max-height: 480px;
+    background-image: url(../images/victor-freitas-nlZTjUZX2qo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: lighten;
+}
 
 /* ---------------------------------------------------------------- SECTION: image-and-quotes ----------------- */
 
@@ -656,6 +674,18 @@ hr {
     overflow: hidden;
     position: relative;
     background-image: url(../images/pexels-jonathan-borba-3076516.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#gym-class-hero-evening {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/geert-pieters-0Z-r591z3DI-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
