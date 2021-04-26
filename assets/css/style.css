@@ -187,6 +187,7 @@ hr {
     /* Testing Background-blend-mode */
     background-blend-mode: luminosity;
     width: 100%;
+    background-attachment: fixed;
 
 }
 
@@ -264,6 +265,7 @@ hr {
     background-size: cover;
     width: 100%;
     font-size: 24px;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(214, 207, 203, 1))
     
     
 }
@@ -315,6 +317,13 @@ hr {
 
 }
 
+.address a p,
+.contact a p {
+
+    font-weight: 600;
+
+}
+
 /* ---------------------------------------------------------------- SECTION: Fist Bump Image ------------------ */
 
 .fist-bump-image {
@@ -326,6 +335,7 @@ hr {
     background-repeat: no-repeat;
     background-position: center center;
     background-blend-mode: lighten;
+    background-attachment: fixed;
 }
 
 /* ---------------------------------------------------------------- SECTION: image-and-quotes ----------------- */
@@ -374,13 +384,26 @@ hr {
 /* ----------------------------------------------------------------SECTION: Services ------------------------------------ */
 
 
-.services {
+.services-class,
+.services-pt {
         
     font-size: 1.5rem;
-    background-color: #ffffff;
-    width: 100%;
 
 }
+
+.services-class-container {
+
+    font-size: 1.5rem;
+    min-height: 300px;
+    padding-bottom: 3rem;
+    position: relative;
+    
+    /* background: linear-gradient(90deg,rgba(214, 207, 203, 0.3),rgba(66,62,59, 0.9));*/
+    
+    
+}
+
+
 
 .services-class-header-image {
 
@@ -388,14 +411,14 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 33vh;
+    height: 300px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #DC2F02;
     position: relative;
-    clear: both;
-    z-index: 1;
-
+    
 }
+
+
 
 .services-class-header-image h3 {
 
@@ -409,44 +432,27 @@ hr {
 
 }
 
-.services-class-container {
 
-    position: relative;
-    background-color: #ffffff;
-    background: linear-gradient(90deg,rgba(214, 207, 203, 0.3),rgba(66,62,59, 0.9));
-    z-index: 0;
-    
-}
 
 .services-class-container article {
 
     position: relative;
     margin: 0 auto;
     width: 66vw;
-}
-
-.atom-logo {
-
-    color: #37718e;
-    position: absolute;
-    font-size: 20rem;
-    top: 20%;
-    right: 55%;
-    margin-top: 1.5rem;
-    z-index: 0;
+    height: 300px;
 
 }
 
 
 .class-text-block {
     
-    background-color: rgba(66,62,59, 0.7);
+    /* background-color: rgba(66,62,59, 0.7);*/
     padding: 1rem 1rem;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    height: 66%;
+
     
 }
 
@@ -456,13 +462,15 @@ hr {
 
 }
 
-.services article br {
+.services-class-container article br,
+.services-pt-container article br {
 
-    height: 5vh;
+   height: 5vh;
 
 }
 
-.services article a {
+.services-class-container article a,
+.services-pt-container article a {
    
     width: 100%;
     margin-bottom: 1.5rem;
@@ -471,12 +479,14 @@ hr {
 
 }
 
-.services article a p {
+.services-class-container article a p,
+.services-pt-container article a p {
 
     text-transform: uppercase;
     font-weight: 800;
 
 }
+
 
 
 .services-pt-header-image {
@@ -485,19 +495,18 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 33vh;
+    height: 300px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #423E3b;
     position: relative;
-    z-index: 1;
 }
 
 .services-pt-header-image h3 {
 
     position: absolute;
-    top: 20vh;
+    top: 66%;
     left: 5vw;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
@@ -506,20 +515,9 @@ hr {
 
 .services-pt-container {
 
-    background: linear-gradient(270deg,rgba(66, 62, 59, 0.2),rgba(66,62,59, 0.9));
-    position: relative;
-    z-index: 0;
-
-}
-
-.atom-logo-orange {
-
-    color: #DC2F02;
-    position: absolute;
-    font-size: 20rem;
-    top: 20%;
-    left: 50%;
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    min-height: 300px;
+    padding-bottom: 3rem;
 
 }
 
@@ -528,28 +526,131 @@ hr {
     position: relative;
     margin: 0 auto;
     width: 66vw;
+    height: 300px;
 
 }
 
 .pt-text-block {
     /* Transparency combined with blur gives a glass effect - glassmorphism
        Does not work on Firefox or older IE browsers */
-    background-color: rgba(255,255, 255, 0.7);
+    
     padding: 1rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    color: #ffffff;
+    
 
 }
 
 .services-pt-container article a {
 
     width: 100%;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     height: 50px;
 
 }
+
+
+/* -------------------------------------------------------------------------------------- SECTION TILE TEST SERVICES ----- */
+
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "image1 image1 image1 image1"
+        "article1 article1 article1 article1"
+        "image2 image2 image2 image2"
+        "article2 article2 article2 article2";
+
+}
+
+.class-image {
+
+    grid-area: image1;
+    background-image: url(../images/pexels-andrea-piacquadio-3766211.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+    position: relative;
+    background-color: #423E3b;
+    
+
+}
+
+.class-article,
+.pt-article {
+
+    grid-area: article1;
+    min-height: 300px;
+    padding: 3rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    z-index:1
+    
+
+}
+
+.class-article p,
+.pt-article p {
+
+    padding: 1rem;
+
+}
+
+.class-article a,
+.pt-article a {
+
+    margin: 0.75rem 1rem;
+    padding: 1rem;
+    width: 50%;
+
+}
+
+.class-article a p,
+.pt-article a p {
+
+    font-weight: 700;
+
+}
+
+.pt-article {
+
+    grid-area: article2;
+    min-height: 300px;
+
+}
+
+.pt-image {
+
+    grid-area: image2;
+    background-image: url(../images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+    position: relative;
+
+}
+
+.class-image h2,
+.pt-image h2 {
+
+    position: absolute;
+    top: 66%;
+    left: 1rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+
+} 
+
 
 
 /* --------------------------------------------------------------------------------------SECTION: MEET OUR TRAINERS ----------------*/
@@ -561,6 +662,18 @@ hr {
 
 }
 
+.meet-trainers-header {
+
+    text-transform: uppercase;
+
+}
+
+.meet-trainers hr {
+
+    width: 33%;
+
+}
+
 .meet-trainers h2 {
 
     margin: 1rem 1.25rem;
@@ -569,51 +682,27 @@ hr {
     
 }
 
-.trainer-profile-container {
-    
-    position: relative;
-    width: 75vw;
-    margin: 0 auto;
+.meet-trainers p {
+
+    margin: 1rem 1.25rem;
+    font-size: 1.25rem;
 
 }
 
-.trainer-profile {
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.profile-1,
+.profile-2,
+.profile-3 {
 
-}
 
-.profile-pic-1,
-.profile-pic-2,
-.profile-pic-3 {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 96px;
-    width: 96px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 
 }
 
-.profile-pic-1 {
 
-    background-image: url(../images/pexels-sindre-strøm-1040880.jpg);
 
-}
 
-.profile-pic-2 {
-
-    background-image: url(../images/pexels-pixabay-415829.jpg);
-
-}
-
-.profile-pic-3 {
-
-    background-image: url(../images/pexels-pixabay-220453.jpg);
-
-}
 
 
 
@@ -649,10 +738,6 @@ hr {
     background-color: #D0CCD0;
 } */
 
-.gym-class-tiles {
-
-    background-color: #D0CCd0;
-    }
 
 
 #gym-class-hero {
@@ -692,6 +777,11 @@ hr {
     background-attachment: fixed;
 }
 
+#gym-class-tab {
+
+    margin-bottom: 0;
+
+}
 
 .gym-class-header {
     position: absolute;
@@ -753,6 +843,15 @@ hr {
     font-weight: 700;
 
 }
+
+.class-tab {
+
+    font-family: "Spartan", sans-serif;
+    font-weight: 500; 
+
+}
+
+
 
 
 
@@ -832,5 +931,106 @@ hr {
 
     }
 
+
+
+    .services-class-container,
+    .services-pt-container {
+
+       /* overflow: auto; */
+       /* display: inline-block */
+       height: auto;
+       font-size: 1.25rem;
+       
+        
+    }
+
+    .services-class-header-image {
+
+        width: 50%;
+        height: 300px;
+        float: left;
+    
+    }
+
+
+
+    .services-class-container article {
+        position: relative;
+        width: 50%;
+        float: right;
+        height: 300px;
+        padding: 1rem 3rem;
+        text-align: center;
+    
+    }
+
+    .services-class-container article p {
+
+        text-align: left;
+    }
+
+    .services-class-container article a {
+        
+        width: 66%;
+        
+    }
+
+    .services-pt-container article {
+        position: relative;
+        width: 50%;
+        float: left;
+        height: 300px;
+        padding: 1rem 3rem;
+        text-align: center;
+    }
+
+    .services-pt-container article p {
+
+        text-align: right;
+
+    }
+
+    .services-pt-container article a {
+
+        width: 66%;
+
+    }
+
+    .services-pt-header-image {
+
+        float: right;
+        width: 50%;
+        
+        height: 300px;
+
+    }
+
+
+    /* ------------------------------------------------------------------TEST GRID SECTION ---------- */
+
+    .grid-container {
+
+        grid-template-areas:
+        "image1 image1 article1 article1"
+        "image1 image1 article1 article1"
+        "article2 article2 image2 image2"
+        "article2 article2 image2 image2";
+
+    }
+
+
+  
+}
+
+
+/* ---------------------------------------------------------------------- OLD IPAD BREAKPOINT ---------------- */
+
+    /* Sections look strange within a limited screen width. Unfortunately this screen width is the same as an old iPad. This media query tweaks the site so it maintains a consistent look on iPad devices */
+
+@media only screen and (min-width: 767px) and (max-width:782px) {
+
+
+
+   
 }
 /* ---------------------------------------------------------------- */

@@ -143,17 +143,19 @@
             </section>
 
     <!-- Fist-bump Image -->
+
             <section>
                 <div class="fist-bump-image dark-grey-bg"></div>
             </section>
         
     <!-- Client Endorsement Quotes -->
-            <section class="image-and-quotes section dark-grey-bg">
+
+            <section class="image-and-quotes section dark-grey-bg section">
                 <div class="columns">
                     <div class="column">
                         <div class="columns">
                             <div class="column is-3">
-                                <img class="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg">
+                                <img class="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg" alt="">
                             </div>
                             <div class="column has-text-centered ">
                                 <p class="client-name subtitle is-4">Tom</p>
@@ -167,7 +169,7 @@
                     <div class="column">
                         <div class="columns">
                             <div class="column is-3">
-                                <img class= "client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg">
+                                <img class= "client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg" alt="">
                             </div>
                             <div class="column has-text-centered">
                                 <p class="client-name subtitle is-4">Tom</p>
@@ -183,7 +185,7 @@
                     <div class="column">
                         <div class="columns">
                             <div class="column is-3">
-                                <img class ="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg">
+                                <img class ="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg" alt="">
                             </div>
                             <div class="column has-text-centered">
                                 <p class="client-name subtitle is-4">Tom</p>
@@ -198,7 +200,7 @@
                     <div class="column">
                         <div class="columns">
                             <div class="column is-3">
-                                <img class="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg">
+                                <img class="client-pic" src="/assets/images/pexels-nathan-cowley-634021.jpg" alt="">
                             </div>
                             <div class="column has-text-centered">
                                 <p class="client-name subtitle is-4">Tom</p>
@@ -212,107 +214,192 @@
                 </div>
             </section>
 
-    <!-- Services: Classes & Personal Training -->        
-            <section class="services">
-                <div class="services-class-container">
+    <!-- Services: Classes & Personal Training 
+        
+            <section class="services-class deep-orange-bg section is-small">
+                <div class="services-class-container deep-orange-bg">
                     <div class="services-class-header-image">
                         <h3>Classes</h3>
                     </div>
-                    <p class="atom-logo"><i class="fas fa-atom"></i></p>
+                    
                     <article>
                         <div class="class-text-block">
                             <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you!</p>
                         </div>
-                        <a class="button blue-bg light-grey-text" href="../classes-morning.html"><p class="light-grey-text" >More...</p></a>
+                        <a class="button dark-grey-bg light-grey-text" href="../classes-morning.html">
+                            <p class="light-grey-text" >More...</p></a>
                     </article>
                 </div>
+            </section>
+
+            <section class = "services-pt dark-grey-bg section is-small">
                 <div class="services-pt-container dark-grey-bg">
                     <div class="services-pt-header-image">
                         <h3>Coaching</h3>
                     </div>
-                    <p class="atom-logo-orange"><i class="fas fa-atom"></i></p>
+                    
                     <article>
                         <div class="pt-text-block">
-                            <p>Get a tailored work-out programme designed around your goals, experience and physique.</p>
+                            <p>With our experienced coaches, get a tailored work-out programme designed for you.</p>
                         </div>
                         <a class="button light-orange-bg" href="#"><p class="light-grey-text" >More...</p></a>
+                        
                     </article>
+                    
                 </div>
             </section>
+        -->
+        
+    <!--  BULMA TILE TESTER 
+
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <div class="tile is-6 classes-image-tile is-child deep-orange-bg">
+                        <h3>Classes</h3>
+                    </div>
+                    <div class="tile classes-article-tile is-6 is-child deep-orange-bg">
+                        <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you!</p>
+                        <a class="button dark-grey-bg light-grey-text" href="../classes-morning.html">
+                            <p class="light-grey-text" >More...</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <div class="tile pt-article-tile is-6 is-child dark-grey-bg">
+                        <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you!</p>
+                        <a class="button dark-grey-bg light-grey-text" href="../classes-morning.html">
+                            <p class="light-grey-text" >More...</p>
+                        </a>
+
+                    </div>
+                    <div class="tile is-6 pt-image-tile is-child dark-grey-bg">
+                        <h3>Classes</h3>
+                    </div>
+                </div>
+            </div>
+      -->
+
+    <!-- SERVICES: CSS GRID -->
+
+            <div class="grid-container">
+                <div class="class-image deep-orange-bg"><h2>Classes</h2></div>
+                <article class="class-article deep-orange-bg">
+                    <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you</p>
+                    <a class="button dark-grey-bg" href="../classes-morning.html">
+                        <p class="light-grey-text" >More...</p>
+                    </a>
+                </article>
+                <div class="pt-image dark-grey-bg"><h2>Coaching</h2></div>
+                <article class="pt-article dark-grey-bg">
+                    <p>With our experienced coaches, get a tailored work-out programme designed for you.</p>
+                    <a class="button deep-orange-bg" href="../classes-morning.html">
+                        <p class="light-grey-text" >More...</p>
+                    </a>
+                </article>
+            </div>
 
     <!-- Trainer Profiles -->
             
-            <section class="trainers section deep-orange-bg">
-                <div class="trainer-container">
+            <section class="trainers section light-grey-bg">
+                
                     <article class="meet-trainers">
-                        <h2 class="dark-grey-text">Meet Our Trainers</h2>
-
-                        <div class="trainer-profile-container">
-                            <div class="card trainer-profile light-grey-bg">
-                                <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <div class="profile-pic-1"></div>
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="title is-4">Mark</p>
-                                        <p class="subtitle is-6">Owner & Trainer</p>
-                                    </div>
-                                </div>
-                                    <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Phasellus nec iaculis mauris.
-                                        <br>
-                                        
-                                    </div>
-                                </div>
+                        <h2 class="dark-grey-text meet-trainers-header">Meet Our Trainers</h2>
+                        <hr>
+                        
+                        <div class="columns">
+                            <div class="column is-1"></div>
+                            <div class="column">
+                                <img class="profile-1" src="assets/images/pexels-sindre-strøm-1040880.jpg" />
+                                <h2>Mark</h2>
+                                <p>Owner & Trainer</p>
+                            </div>
+                            <div class="column">
+                                <img class="profile-2" src="assets/images/pexels-pixabay-415829.jpg" />
+                                <h2>Lisa</h2>
+                                <p>Trainer</p>
+                            </div>
+                            <div class="column">
+                                <img class="profile-3" src="assets/images/pexels-pixabay-220453.jpg" />
+                                <h2>Bart</h2>
+                                <p>Trainer</p>
                             </div>
                         </div>
 
-                        <div class="trainer-profile-container">
-                            <div class="card trainer-profile light-grey-bg">
-                                <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <div class="profile-pic-2"></div>
+
+                        <!-- TRAINER SECTION TEST 
+
+                        <div class="trainer-container">
+                            <div class="trainer-profile-container">
+                                <div class="card trainer-profile light-grey-bg">
+                                    <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <div class="profile-pic-1"></div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">Mark</p>
+                                            <p class="subtitle is-6">Owner & Trainer</p>
+                                        </div>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-4">Lisa</p>
-                                        <p class="subtitle is-6">Trainer</p>
-                                    </div>
-                                </div>
-                                    <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Phasellus nec iaculis mauris. 
-                                        
+                                        <div class="content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Phasellus nec iaculis mauris.
+                                            <br>
+                                            
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="trainer-profile-container">
-                            <div class="card trainer-profile light-grey-bg">
-                                <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <div class="profile-pic-3"></div>
+                            <div class="trainer-profile-container">
+                                <div class="card trainer-profile light-grey-bg">
+                                    <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <div class="profile-pic-2"></div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">Lisa</p>
+                                            <p class="subtitle is-6">Trainer</p>
+                                        </div>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-4">Bart</p>
-                                        <p class="subtitle is-6">Trainer</p>
+                                        <div class="content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Phasellus nec iaculis mauris. 
+                                            
+                                        </div>
                                     </div>
                                 </div>
-                                    <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Phasellus nec iaculis mauris.
-                                        <br>   
+                            </div>
+
+                            <div class="trainer-profile-container">
+                                <div class="card trainer-profile light-grey-bg">
+                                    <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <div class="profile-pic-3"></div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">Bart</p>
+                                            <p class="subtitle is-6">Trainer</p>
+                                        </div>
+                                    </div>
+                                        <div class="content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Phasellus nec iaculis mauris.
+                                            <br>   
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </article>
-                </div>
-            </section>
+                </div> -->
+            </section> 
         
 
 <!-- Footer -->
@@ -324,12 +411,14 @@
                <a href="#">Privacy Policy</a>
               </p>
               <p><a href="#">Sign Up</a></p>
-              <p><a href="#">Find US</a></p>
+              <p><a href="#">Find Us</a></p>
+              <!--
               <ul> Class Timetable
                   <li><a href="#">Morning</a></li>
                   <li><a href="#">Afternoon</a></li>
                   <li><a href="#">Evening</a></li>
               </ul>
+            -->
               <p>©Chris Short 2021</p>
             </div>
         </footer>

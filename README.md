@@ -83,9 +83,10 @@ In this section, you should go over the different parts of your project, and des
 - Section on meet our trainers
 - Footer (to be reworked/styled)
 
-##### classes-morning.html
+##### classes-morning.html, classes-evening.html, classes-afternoon.html
 
 - Responsive page with hero image, and list of classes. Uses Bulma's responsive tiles to display individual classes. 
+- Classes: tells users about services in detail, elaborates on landing page section. Contains time-table covering the week.
 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -98,8 +99,7 @@ In addition, you may also use this section to discuss plans for additional featu
     - Header: Bold colours which will be consistent across pages and possibly fixed scrolling on landing page.
     - Footer: consistent across pages to reinforce theme of site. Links to social media.
 
-#### classes-morning.html, classes-evening.html, classes-afternoon.html
-- Classes: tells users about services in detail, elaborates on landing page section. Contains time-table covering the week.
+
 
 - Price List: Simple, static price list.
 
@@ -114,6 +114,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [Bulma](https://bulma.io/)
     - This page will use _Bulma_ CSS, an open source CSS framework.
+
+- [Glassmorphism](https://[insert url here])
+    - The glassmorphism technique was deployed as a flourish.
 
 
 ## Testing
