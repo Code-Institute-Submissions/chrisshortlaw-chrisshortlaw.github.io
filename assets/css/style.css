@@ -291,6 +291,7 @@ hr {
 
 .location-arrow a i {
     
+    
     width: 108px;
     height: 108px;
     color:#423E3B;
@@ -321,6 +322,13 @@ hr {
 
     font-weight: 600;
 
+}
+
+.location-arrow a i:hover,
+.address a:hover,
+.contact a:hover {
+
+    color: #CD3110;
 }
 
 /* ---------------------------------------------------------------- SECTION: Fist Bump Image ------------------ */
@@ -385,173 +393,6 @@ hr {
 
 /* ----------------------------------------------------------------SECTION: Services ------------------------------------ */
 
-/*
-.services-class,
-.services-pt {
-        
-    font-size: 1.5rem;
-
-}
-
-.services-class-container {
-
-    font-size: 1.5rem;
-    min-height: 300px;
-    padding-bottom: 3rem;
-    position: relative;
-    
-    
-    
-}
-
-
-
-.services-class-header-image {
-
-    background-image: url(../images/pexels-andrea-piacquadio-3766211.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 300px;
-    width: 100%;
-    background-color: #DC2F02;
-    position: relative;
-    
-}
-
-
-
-.services-class-header-image h3 {
-
-    position: absolute;
-    top: 20vh;
-    left: 5vw;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-
-}
-
-
-
-.services-class-container article {
-
-    position: relative;
-    margin: 0 auto;
-    width: 66vw;
-    height: 300px;
-
-}
-
-
-.class-text-block {
-    
-    background-color: rgba(66,62,59, 0.7);
-    padding: 1rem 1rem;
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: 66%;
-
-    
-}
-
-.class-text-block p {
-
-    color: #ffffff;
-
-}
-
-.services-class-container article br,
-.services-pt-container article br {
-
-   height: 5vh;
-
-}
-
-.services-class-container article a,
-.services-pt-container article a {
-   
-    width: 100%;
-    margin-bottom: 1.5rem;
-    padding: 10px 10px;
-    height: 50px;
-
-}
-
-.services-class-container article a p,
-.services-pt-container article a p {
-
-    text-transform: uppercase;
-    font-weight: 800;
-
-}
-
-
-
-.services-pt-header-image {
-
-    background-image: url(../images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 300px;
-    width: 100%;
-    background-color: #423E3b;
-    position: relative;
-}
-
-.services-pt-header-image h3 {
-
-    position: absolute;
-    top: 66%;
-    left: 5vw;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-    
-}
-
-.services-pt-container {
-
-    font-size: 1.5rem;
-    min-height: 300px;
-    padding-bottom: 3rem;
-
-}
-
-.services-pt-container article {
-
-    position: relative;
-    margin: 0 auto;
-    width: 66vw;
-    height: 300px;
-
-}
-
-.pt-text-block {
-    
-    
-    padding: 1rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: #ffffff;
-    
-
-}
-
-.services-pt-container article a {
-
-    width: 100%;
-    margin-bottom: 1rem;
-    height: 50px;
-
-}
-
- */
-/* -------------------------------------------------------------------------------------- SECTION TILE TEST SERVICES ----- */
 
 
 .grid-container {
@@ -705,10 +546,10 @@ hr {
 
 .signup-form h2 {
 
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    text-decoration: underline;
-    padding-bottom: .5rem;
+    
+    padding-bottom: 2rem;
     text-transform: uppercase;
 
 }
@@ -771,6 +612,7 @@ label h3 {
 
     height: 100%;
     max-width: 100%;
+    padding: 1rem;
 
 }
 
@@ -855,6 +697,21 @@ label h3 {
 #gym-class-tab {
 
     margin-bottom: 0;
+
+}
+
+.gym-class-is-active {
+
+    background-color: #423E3b;
+    border-color: #D0CCd0;
+    color: #ffffff;
+
+
+}
+
+.gym-class-is-active a {
+    
+    color: #ffffff;
 
 }
 
