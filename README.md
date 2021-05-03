@@ -70,11 +70,11 @@ A mock up was built using Figma. Colour theme was generated with Coolors.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+
 #### index.html
+
 - NavBar - Allows users to navigate the site, fixed to top of screen so users always have means of navigation, provides useful outline of site and sections.
 - Landing Page: Hero & CTA. Hero image reinforces color theme, call to action includes a button linking users to sign up page.
 - Location & contact section
@@ -88,24 +88,48 @@ In this section, you should go over the different parts of your project, and des
 - Responsive page with hero image, and list of classes. Uses Bulma's responsive tiles to display individual classes. 
 - Classes: tells users about services in detail, elaborates on landing page section. Contains time-table covering the week.
 
+##### Landing Page, Header & Footer
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Landing page: users can scroll a single page with bright title/hero image, callouts for promotions & challenges, quotes from happy members, scrolling to section focussing on location & images, section on services (with link to class time-table/info page) section on gym instructors/trainers. Images and color reinforce theme of site and show happy members/customers
+    
+    - Header: Bold colours which are consistent across pages and fixed scrolling. Header contains NavBar, Brand. Users can navigate the site from the fixed navbar/header and are always able to quickly move to whichever part of the site they wish to be.
+    - Footer: consistent across pages to reinforce theme of site. Links to social media.
+
+##### Sign Up Page
+
+- Sign Up comprised of a html form, inputs and submit button, and a googlemaps/map site providing a link to the 'location' of the gym. (This location is fake but used to show functionality).
+
+- User can input their name, email and indicatev (via checkbox) which products they are interested in. 
+- User can click on map to be brought to a google map page for directions or coordinates.
+
+
+
 
 ### Features Left to Implement
 
 #### index.html
-- Landing page: single scrolling page with bright title/hero image, callouts for promotions & challenges, quotes from happy members, scrolling to section focussing on location & images, section on services (with link to class time-table/info page) section on gym instructors/trainers, terminating with a sign-up form.
-    
-    - Header: Bold colours which will be consistent across pages and possibly fixed scrolling on landing page.
-    - Footer: consistent across pages to reinforce theme of site. Links to social media.
+
+- Animations/Feedback on interative elements/links
+    - Landing Page: Location & Contact Section
+        - Box shadow to highlight both location and contact when hovered over on desktop. A 'clicked' feedback on each.
+
+    - Sign Up Page:
+        - Success Message on completed submission
+        - Input required on First Name & Last Name Fields.
+
+- Revise Site for ARIA compliance & compatibility
 
 
 
-- Price List: Simple, static price list.
+- Price List: Simple, responsive price list.
 
 - Challenges page: Lists 'challenges' and promotions. Include 'leaderboard' for challenges (styled table).
 
 - Gallery: Reinforces happy members. Tiled images á la pinterest.
+
+#### Footer
+
+- Implement Privacy Policy Modal
 
 
 ## Technologies Used
@@ -119,24 +143,22 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The glassmorphism technique was deployed as a flourish.
 
 
+
+
 ## Testing
 
 ### Responsiveness:
 
 Testing for responsiveness was carried out throughout the project using FireFox's developer tools. The site is mobile first, focussing on the iphone 5 SE as the standard (320px by 568px) and scaling upwards from there. 
 
-Chromium based browsers were also used to test features and compatibility. These consisted ofChromium on a Linux machine and Microsoft Edge (Chromium based: version 90.0.818.42) on a Windows machine.
+Chromium based browsers were also used to test features and compatibility. These consisted of Chromium on a Linux machine and Microsoft Edge (Chromium based: version 90.0.818.42) on a Windows machine.
 
 Some features, such a glassmorphism use features which are disabled by default on FireFox and are unavailable on older browsers such as Internet Explorer. These were either turned off when using those browsers or left undisturbed where there was no discernible loss of quality or experience.
 
 The project was tested and found to be compatible with multiple screen size up to tablet (786px by  XXX ) and desktop (1920 by 1080). Viewing and usability was possible in both portrait and landscape mode.
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -152,12 +174,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Deployed on Github Pages.
+
+[INSERT BUGS/FILE PATH ISSUES HERE]
+
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -201,8 +222,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
 - I received inspiration for this project from [F45](https://f45training.ie/).
 - I received inspiration from this project from [UFC Gym](https://www.ufcgym.com/)
 - I received inspiration for this project from [Signal](https://www.signal.org/)
 - Glassmorphism: from [uxdesign](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9)
+- The Javascript listener was copied from the sample listner supplied by [Bulma](https://www.bulma.io)
