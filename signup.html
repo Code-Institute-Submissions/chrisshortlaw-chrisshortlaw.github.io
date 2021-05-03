@@ -9,7 +9,7 @@
         <meta name="description" content="Classes">
 
         <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
-        <script src="\assets\javascript\script.js"></script>
+        <script src="\assets\js\script.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
         <link rel="stylesheet" href="\assets\css\style.css">
@@ -20,7 +20,7 @@
     <body class="has-navbar-fixed-top">
         <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand is-flex is-align-content-center">
-                <a class="navbar-item is-flex is-align-content-center atomic-brand" href="#">
+                <a class="navbar-item is-flex is-align-content-center atomic-brand" href="index.html">
                     <h1><i class="fas fa-atom"></i>atomic</h1>
                 </a>
 
@@ -45,11 +45,11 @@
 
             <div id="atomic-navbar" class="navbar-menu" role="navigation">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="index.html">
                         <h3>Home</h3>
                     </a>
     
-                    <a class="navbar-item" href="/signup.html">
+                    <a class="navbar-item" href="#">
                         <h3>Sign Up</h3>
                     </a>
 
@@ -58,7 +58,7 @@
                             <h3>Class Timetable</h3>
                         </a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item" href="../classes-morning.html">
+                            <a class="navbar-item" href="classes-morning.html">
                                 <h3>Morning</h3>
                             </a>
                             <a class="navbar-item" href="classes-afternoon.html">
@@ -71,7 +71,7 @@
                         </div>
                     </div>
 
-                    <a class="navbar-item" href="#location-and-contact">
+                    <a class="navbar-item" href="index.html#location-and-contact">
                         <h3>Find Us</h3>
                     </a>
                 </div>
@@ -84,46 +84,64 @@
         </nav>
 
         <!-- SIGNUP FORM -->
-
-        
-        <form action="" method="GET">
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname"> <br>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname"> <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"> <br>
-            <p>I am interested in:</p>
-            <input type="checkbox" id="classes" name="classes" value="classes">
-            <label for="classes">Classes</label> <br>
-            <input type="checkbox" id="personal-training" name="personal-training" value="personal-training">
-            <label for="personal-training">Personal Training</label>
-            <br>
-            <br>
-            <input type="submit" value="Join!" action="">
-
-             
-
-
-        </form>
+    <section class="section signup-form light-grey-bg">
+        <h2 class="deep-orange-text">Sign Up Today!</h2>
+        <div class="columns">
+            <div class="column form-column">
+                <!--<p class="atom-logo-orange deep-orange-text"><i class="fas fa-atom"></i></p> -->
+                <div class="field form-container">
+                    <form action="" method="GET">
+                        <!-- <label class="label" for="fname"><h3>First Name:</h3></label> -->
+                        <div class="control">
+                            <input class="input is-medium is-rounded" type="text" id="fname" name="fname" aria-label="First name" placeholder="First Name"> 
+                        </div>
+                        <br>
+                        <!-- <label class="label" for="lname"><h3>Last Name:</h3></label> -->
+                        <div class="control">
+                            <input class="input is-medium is-rounded" type="text" id="lname" name="lname" aria-label="Last Name" placeholder="Last Name">
+                        </div>
+                        <br>
+                        <!-- <label class="label" for="email"><h3>Email:</h3></label> -->
+                        <div class="control">
+                            <input class="input is-medium is-rounded" type="email" id="email" name="email" placeholder="Email"> 
+                        </div>
+                        <br>
+                        <p class="interests">I am interested in:</p>
+                        <label class="checkbox" for="classes"><p>Classes</p></label>
+                        <span class="control">
+                                <input  type="checkbox" id="classes" name="classes" value="classes" aria-label="classes">
+                        </span>
+                        <br>
+                        <label class="checkbox" for="personal-training"><p>Personal Training</p></label> 
+                        <span class="control">
+                            <input type="checkbox" id="personal-training" name="personal-training" value="personal-training">
+                        </span>
+                            
+                        
+                        <br>
+                        <br>
+                        <div class="control">
+                            <input type="submit" class="button" value="Join!" action="">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="column map-column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4515.739355511536!2d-6.0237237208017715!3d53.49227017984037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671d69b8b86fd5%3A0x1b7bf1c13fd911b2!2sLambay%20Castle!5e0!3m2!1sen!2sie!4v1619608423075!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
 
         <!-- Footer -->
         <footer class="footer dark-grey-bg">
             <h2 class="title is-4 deep-orange-text"><i class="fas fa-atom"></i>Atomic Fitness</h2>
             <div class="content has-text-centered deep-orange-text">
-                
-              <p class="deep-orange-text">
-               <a href="#">Privacy Policy</a>
-              </p>
-              <p><a href="#">Sign Up</a></p>
-              <p><a href="#">Find Us</a></p>
-              <!--
-              <ul> Class Timetable
-                  <li><a href="#">Morning</a></li>
-                  <li><a href="#">Afternoon</a></li>
-                  <li><a href="#">Evening</a></li>
-              </ul>
-            -->
+                  
+                <p><a href="#" class="light-grey-text">Privacy Policy</a></p>
+                <p><a href="signup.html" class="light-grey-text">Sign Up</a></p>
+                <p><a href="index.html#location-and-contact" class="light-grey-text">Find Us</a></p>
+              
               <p>©Chris Short 2021</p>
             </div>
         </footer>
