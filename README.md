@@ -116,6 +116,9 @@ A mock up was built using Figma. Colour theme was generated with Coolors.
     - Sign Up Page:
         - Success Message on completed submission
         - Input required on First Name & Last Name Fields.
+    
+    - Classes:
+        - Have class tiles repsond on hover
 
 - Revise Site for ARIA compliance & compatibility
 
@@ -172,12 +175,20 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+Issue 1: Pages loads very slowly
+
+- Compressed images using Caesium to improve speed.
+
 ## Deployment
 
 
-Deployed on Github Pages.
+Deployed on Github Pages: chrisshortlaw.github.io/index.html
 
 [INSERT BUGS/FILE PATH ISSUES HERE]
+
+Issue 1: Images & pages loads slowly
+
+- Compressed images using Caesium to improve speed.
 
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
@@ -200,6 +211,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 - image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 - headshot 1 - by murat esibatir from [Pexels](https://www.pexels.com/photo/gorgeous-young-black-woman-with-afro-hair-4355346/)
 - headshot 2 - by  Nathan Cowley from [Pexels](https://www.pexels.com/photo/grayscale-portrait-photography-of-man-634021/)
+- Headshot 3 - 'Bald guy with serious facial expression' - by Kevin Bidwell at [Pexels](https://www.pexels.com/@kevinbidwell).
+- Headshot 4 - 'Close Up of Woman wearing Grey Sweater' - by Sound On at [Pexels](https://www.pexels.com/@sound-on)
+- Headshot 5 - ' ' - by Bruno Salvadori at [Pexels](https://www.pexels.com/@sound-on)
 - Image 3 - 'fistbump' - by [Victor Freitas](https://unsplash.com/@victorfreitas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/gym-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 - Icon - 'location arrow' from [FontAwesome](https://fontawesome.com/icons/location-arrow?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-location-arrow"></i>)
 - Icon - 'phone-alt' from [FontAwesome](https://fontawesome.com/icons/phone-alt?style=solid). Licensed for free use under Creative Commons 4.0 International licence with attribution by Fonticons, Inc. [Link to Licence](https://fontawesome.com/license) (<i class="fas fa-phone-alt"></i>)
