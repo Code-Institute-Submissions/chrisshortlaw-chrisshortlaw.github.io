@@ -29,7 +29,7 @@ hr {
 
     margin: 1rem 0;
     width: 100%;
-    background-color:#DC2F02;
+    background-color:#CD3110;
     height: 0.16rem;
 
 }
@@ -98,7 +98,7 @@ hr {
 
     color: #CD3110;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding-top: .2rem;
     margin-top: .5rem;
     
@@ -106,7 +106,7 @@ hr {
 
 .atomic-brand h1 {
 
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 900;
 
 }
@@ -114,16 +114,16 @@ hr {
 .navbar-brand a i {
 
     color: #CD3110;
-    font-size: 1rem;
+    font-size: 1.25rem;
 
 }
 
 
-.navbar-brand a:hover,
+/* .navbar-brand a:hover,
 .navbar-brand a i:hover {
 
-    color:#D0CCd0;
-}
+    background-color:#D0CCd0;
+} */
 
 
 .navbar-burger {
@@ -179,13 +179,11 @@ hr {
 #landing-page-hero {
 
     height: 568px;
-    background-image: url(../images/pexels-ivan-samkov-4162490.jpg);
+    background-image: url(../images/b&w-hero.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #423E3B;
-    /* Testing Background-blend-mode */
-    background-blend-mode: luminosity;
     width: 100%;
     background-attachment: fixed;
 
@@ -210,6 +208,8 @@ hr {
     bottom: 30%;
     margin-top: 40%;
     padding: 1rem;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 
 }
 
@@ -240,7 +240,7 @@ hr {
 .button-container .button {
 
     width: 100%;
-    background-color: #DC2F02;
+    background-color: #CD3110;
     padding: 10px;
     height: 65px;
 
@@ -266,7 +266,6 @@ hr {
     width: 100%;
     font-size: 24px;
     background: linear-gradient(rgba(0,0,0,0.35), rgba(214, 207, 203, 1))
-    
     
 }
 
@@ -303,7 +302,7 @@ hr {
     
     margin: 24px auto;
     width: 50%;
-    background-color:#DC2F02;
+    background-color:#CD3110;
     height: 4px;
     
 }
@@ -329,12 +328,12 @@ hr {
 .fist-bump-image {
     width: 100%;
     min-height: 250px;
-    max-height: 480px;
-    background-image: url(../images/victor-freitas-nlZTjUZX2qo-unsplash.jpg);
+    
+    background-image: url(../images/b&w-fist-bump.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-blend-mode: lighten;
+    
     background-attachment: fixed;
 }
 
@@ -344,6 +343,8 @@ hr {
 .image-and-quotes {
 
     color:#D0CCd0;
+    
+    
 }
 
 .image-and-quotes .columns {
@@ -351,6 +352,7 @@ hr {
     margin-left: .75rem;
     margin-right: .75rem;
     margin-top: .75rem;
+    
 } 
 
 
@@ -383,7 +385,7 @@ hr {
 
 /* ----------------------------------------------------------------SECTION: Services ------------------------------------ */
 
-
+/*
 .services-class,
 .services-pt {
         
@@ -398,7 +400,6 @@ hr {
     padding-bottom: 3rem;
     position: relative;
     
-    /* background: linear-gradient(90deg,rgba(214, 207, 203, 0.3),rgba(66,62,59, 0.9));*/
     
     
 }
@@ -446,7 +447,7 @@ hr {
 
 .class-text-block {
     
-    /* background-color: rgba(66,62,59, 0.7);*/
+    background-color: rgba(66,62,59, 0.7);
     padding: 1rem 1rem;
     width: 100%;
     margin-top: 1rem;
@@ -531,8 +532,7 @@ hr {
 }
 
 .pt-text-block {
-    /* Transparency combined with blur gives a glass effect - glassmorphism
-       Does not work on Firefox or older IE browsers */
+    
     
     padding: 1rem 1rem;
     margin-top: 1rem;
@@ -545,12 +545,12 @@ hr {
 .services-pt-container article a {
 
     width: 100%;
-    /*margin-bottom: 1rem;*/
+    margin-bottom: 1rem;
     height: 50px;
 
 }
 
-
+ */
 /* -------------------------------------------------------------------------------------- SECTION TILE TEST SERVICES ----- */
 
 
@@ -578,7 +578,6 @@ hr {
     position: relative;
     background-color: #423E3b;
     
-
 }
 
 .class-article,
@@ -693,7 +692,6 @@ hr {
 .profile-2,
 .profile-3 {
 
-
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -703,9 +701,90 @@ hr {
 
 
 
+/* -------------------------------------------------------------------------------------------------- SIGNUP.HTML ---------------------- */
+
+.signup-form h2 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+
+}
+
+.form-column {
+
+    background-image: url(../images/samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.form-container {
+
+    height: 100%;
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: rgba(0,0,0,0.25);
+    -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+    
+    
+}
 
 
+label,
+label h3 {
 
+    font-weight: 600;
+
+}
+
+
+.form-container form {
+
+    position: relative;
+
+}
+
+.form-container label p {
+
+    padding-right: 1rem;
+
+}
+
+
+.form-container .button {
+
+    color: #ffffff;
+    background-color: #CD3110;
+    width: 60%;
+    margin: 0 auto;
+    left: 20%;
+
+
+}
+
+.map-column iframe {
+
+    height: 100%;
+    max-width: 100%;
+
+}
+
+.interests {
+
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+.checkbox {
+
+    color: #ffffff;
+}
 
 /* ------------------------------------------------------------------------------------------------------ FOOTER ------------ */
 
@@ -733,10 +812,6 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-/* .gym-timetable-morning {
-    background-color: #D0CCD0;
-} */
 
 
 
@@ -803,26 +878,6 @@ hr {
 }
 
 
-/* .morning-image {
-    
-    height: 300px;
-    background-image: url(../images/pexels-jonathan-borba-3076514.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-    width: 100%;
-
-    
-    background-color:#CD3110;
-    
-} 
-
-.morning-image h1 {
-    color: #000000;
-    
-} */
-
 .opaque-overlay-white {
     
     height: 100%;
@@ -836,7 +891,6 @@ hr {
     margin-left: 10vw;
 
 }
-
 
 .gym-day {
 
@@ -856,6 +910,7 @@ hr {
 
 
 /* -------------------------------------------------------- TILE STYLES --- CLASSES.HTML ---- */
+
 .cardio {
     background-color: #CD3110;
 }
@@ -883,11 +938,10 @@ hr {
 }
 
 
-
 /* ------------------------------------------------------------------------------------------------------ MEDIA QUERIES  ---- */
 
 
-/* breakpoints of mobile : screen < 767px; tablet: 768px < screen < 1002px; desktop: screen < 1003px; */
+/* breakpoints of mobile : screen < 767px; tablet: 768px < screen < 1023px; desktop: screen < 1024px; */
 
 
 /* ----------------------------------------------------------------------------------------- TABLET BREAKPOINT ----- */
@@ -933,79 +987,6 @@ hr {
 
 
 
-    .services-class-container,
-    .services-pt-container {
-
-       /* overflow: auto; */
-       /* display: inline-block */
-       height: auto;
-       font-size: 1.25rem;
-       
-        
-    }
-
-    .services-class-header-image {
-
-        width: 50%;
-        height: 300px;
-        float: left;
-    
-    }
-
-
-
-    .services-class-container article {
-        position: relative;
-        width: 50%;
-        float: right;
-        height: 300px;
-        padding: 1rem 3rem;
-        text-align: center;
-    
-    }
-
-    .services-class-container article p {
-
-        text-align: left;
-    }
-
-    .services-class-container article a {
-        
-        width: 66%;
-        
-    }
-
-    .services-pt-container article {
-        position: relative;
-        width: 50%;
-        float: left;
-        height: 300px;
-        padding: 1rem 3rem;
-        text-align: center;
-    }
-
-    .services-pt-container article p {
-
-        text-align: right;
-
-    }
-
-    .services-pt-container article a {
-
-        width: 66%;
-
-    }
-
-    .services-pt-header-image {
-
-        float: right;
-        width: 50%;
-        
-        height: 300px;
-
-    }
-
-
     /* ------------------------------------------------------------------TEST GRID SECTION ---------- */
 
     .grid-container {
@@ -1019,8 +1000,8 @@ hr {
     }
 
 
-  
-}
+}  /*  -------------- END OF BREAKPOINT --------------------- */
+    
 
 
 /* ---------------------------------------------------------------------- OLD IPAD BREAKPOINT ---------------- */
@@ -1033,4 +1014,73 @@ hr {
 
    
 }
-/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- DESKTOP BREAKPOINT ------ */
+
+@media only screen and (min-width: 1024px) {
+
+
+    .class-image,
+    .pt-image {
+
+        height: 500px;
+
+    }
+
+    .class-image h2,
+    .pt-image h2 {
+
+        font-size: 4rem;
+    
+    }
+
+    .class-image h2,
+    .pt-image h2 {
+
+        margin-left: 10%;
+
+
+    }
+
+
+    .class-article,
+    .pt-article {
+
+        height: 500px;
+        padding: 10% 5%;
+        font-size: 1.5rem;
+
+    }
+
+    .class-article .text-and-button-container p {
+
+        text-align: left;
+
+    }
+
+    .pt-article .text-and-button-container p {
+
+          text-align: right;  
+
+    }
+
+    .fist-bump-image {
+
+        height: 500px;
+
+    }
+
+
+    .text-and-button-container {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+
+
+
+
+}
+
