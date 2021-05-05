@@ -61,6 +61,7 @@ hr {
 .blue-bg {
 
     background-color: #37718E;
+
 }
 
 .deep-orange-text {
@@ -72,16 +73,19 @@ hr {
 .light-orange-text {
 
     color: #DC2f02;
+
 }
 
 .light-grey-text {
 
     color: #D6CFCB;
+
 }
 
 .dark-grey-text {
 
     color: #423E3b;
+
 }
 
 .blue-text {
@@ -119,13 +123,6 @@ hr {
 }
 
 
-/* .navbar-brand a:hover,
-.navbar-brand a i:hover {
-
-    background-color:#D0CCd0;
-} */
-
-
 .navbar-burger {
 
     color: #CD3110;
@@ -141,13 +138,14 @@ hr {
 .navbar {
 
     background-color: #423E3B;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
 }
 
 .navbar-item h3 {
 
     color: #CD3110;
+    font-size: 1rem;
     font-weight: 700;
 
 }
@@ -155,6 +153,7 @@ hr {
 .navbar-start {
 
     margin-left: 1.25rem;
+
 }
 
 
@@ -163,9 +162,42 @@ hr {
 
 
 .footer h2 {
-
+    margin: 0 auto;
     text-transform: uppercase;
     font-weight: 700;
+
+
+}
+
+#atomic-brand {
+
+    color: #CD3110;
+
+}
+
+.footer-links:hover {
+
+    color: #CD3110;
+
+}
+
+
+.footer-socials {
+
+    padding: 1rem;
+
+}
+
+.footer-socials a {
+
+    color:#CD3110;
+    font-size: 3rem;
+
+}
+
+.footer-socials a:hover {
+
+    color:#D0CCd0;
 
 }
 
@@ -272,7 +304,7 @@ hr {
 
 .location-and-contact div {
     
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 
 }
@@ -292,8 +324,8 @@ hr {
 
 .location-arrow a i {
       
-    width: 108px;
-    height: 108px;
+    width: 90px;
+    height: 90px;
     color:#423E3B;
     margin: auto;
 
@@ -329,29 +361,47 @@ hr {
 .contact a:hover {
 
     color: #CD3110;
+
 }
 
 /* ---------------------------------------------------------------- SECTION: Fist Bump Image ------------------ */
 
 .fist-bump-image {
+
     width: 100%;
     min-height: 250px;
     
     background-image: url(../images/fist-bump.jpg);
+   
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     
     background-attachment: fixed;
+
 }
 
 /* ---------------------------------------------------------------- SECTION: image-and-quotes ----------------- */
+
+.client-quotes-container {
+
+    text-align: center;
+    width: 75%;
+
+}
+
+.client-quotes-header {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
 
 
 .image-and-quotes {
 
     color:#D0CCd0;
-    
     
 }
 
@@ -368,17 +418,19 @@ hr {
     
     display: block;
     padding: .75rem;
+
 }
 
 .client-pic {
 
-    height: 200px;
-    width: 200px;
+    max-height: 100%;
+    max-width: 100%;
     border-radius: 50%;
 
 }
 
 .client-name {
+
     color:#D0CCd0;
     font-size: 1.5rem;
     font-weight: 700;
@@ -388,12 +440,19 @@ hr {
 
     font-weight: 500;
     font-size: 1rem;
+
 }
+
+
 
 
 /* ----------------------------------------------------------------SECTION: Services ------------------------------------ */
 
+.image-and-quotes {
 
+    padding: 6rem 0 8rem;
+
+}
 
 .grid-container {
 
@@ -487,6 +546,7 @@ hr {
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
+    background-color:rgba(66, 62, 59, 0.65)
 
 } 
 
@@ -501,6 +561,12 @@ hr {
 
 }
 
+.trainer-header-container {
+
+    padding-bottom: 3rem;
+
+}
+
 .meet-trainers-header {
 
     text-transform: uppercase;
@@ -510,6 +576,7 @@ hr {
 .meet-trainers hr {
 
     width: 33%;
+    margin: 0 auto;
 
 }
 
@@ -543,15 +610,21 @@ hr {
 
 /* -------------------------------------------------------------------------------------------------- SIGNUP.HTML ---------------------- */
 
-.signup-form h2 {
+.sign-up-title-container {
 
-    font-size: 1.75rem;
-    font-weight: 700;
-    
+    width: 85%;
+    text-align: center;
     padding-bottom: 2rem;
-    text-transform: uppercase;
 
 }
+
+.sign-up-title {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 
 .form-column {
 
@@ -567,7 +640,7 @@ hr {
     height: 100%;
     width: 100%;
     padding: 1rem 1rem;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.6);
     -webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
     
@@ -577,7 +650,8 @@ hr {
 
 label,
 label h3 {
-
+    
+    color:#ecebec;
     font-weight: 600;
 
 }
@@ -610,8 +684,8 @@ label h3 {
 .map-column iframe {
 
     height: 100%;
-    max-width: 100%;
-    padding: 1rem;
+    width: 100%;
+    padding: .5rem;
 
 }
 
@@ -620,6 +694,11 @@ label h3 {
     font-weight: 500;
     color: #ffffff;
 
+}
+
+#classes-label:hover {
+
+    color: #CD3110;
 }
 
 .checkbox {
@@ -670,6 +749,7 @@ label h3 {
 }
 
 #gym-class-hero-afternoon {
+
     height: 300px;
     width: 100%;
     overflow: hidden;
@@ -679,9 +759,11 @@ label h3 {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
 }
 
 #gym-class-hero-evening {
+
     height: 300px;
     width: 100%;
     overflow: hidden;
@@ -705,7 +787,6 @@ label h3 {
     border-color: #D0CCd0;
     color: #ffffff;
 
-
 }
 
 .gym-class-is-active a {
@@ -715,24 +796,26 @@ label h3 {
 }
 
 .gym-class-header {
+
     position: absolute;
     color: #000000;
     font-size: 300%;
     font-weight: 700;
     z-index: 10;
-    width: 40%;
+    width: 60%;
     height: 20%;
     margin-top: 125px;
     margin-left: 5%;
     margin-bottom: 50px;
     padding-left: 15px;
+
 }
 
 .gym-class-header h1 {
+
     font-weight: 700;
     
 }
-
 
 .opaque-overlay-white {
     
@@ -744,7 +827,25 @@ label h3 {
 
 .class-time {
 
-    margin-left: 10vw;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.box.strength,
+.box.cardio,
+.box.elite {
+    
+    text-align: center;
+
+}
+
+.weekday-head,
+.saturday-head,
+.sunday-head {
+
+    text-align: center;
 
 }
 
@@ -763,9 +864,7 @@ label h3 {
 
 
 
-
-
-/* -------------------------------------------------------- TILE STYLES --- CLASSES.HTML ---- */
+/* ----------------------------------------------------------------------------------------------------- TILE STYLES --- CLASSES.HTML ---- */
 
 .cardio {
     background-color: #CD3110;
@@ -794,18 +893,18 @@ label h3 {
 }
 
 
-/* ------------------------------------------------------------------------------------------------------ MEDIA QUERIES  ---- */
+/* -------------------------------------------------------------------------------------------------------------- MEDIA QUERIES  ---- */
 
 
 /* breakpoints of mobile : screen < 767px; tablet: 768px < screen < 1023px; desktop: screen < 1024px; */
 
 
-/* ----------------------------------------------------------------------------------------- TABLET BREAKPOINT ----- */
+/* -------------------------------------------------------------------------------------------------------- TABLET BREAKPOINT ----- */
 
 @media only screen and (min-width: 767px) {
 
 
-    /* ------------------------------------------INDEX.HTML ------ */
+    /* ---------------------------------------------------------------------------------- BREAKPOINT TABLET => INDEX.HTML ------ */
     
 
     .button-and-article-container {
@@ -830,7 +929,7 @@ label h3 {
 
     .landing-page-header h3 {
 
-        font-size: 1.5rem;
+        font-size: 1rem;
 
     }
 
@@ -843,7 +942,7 @@ label h3 {
 
 
 
-    /* ------------------------------------------------------------------TEST GRID SECTION ---------- */
+    /* ------------------------------------------------------------------ BREAKPOINT TABLET => INDEX.HTML #SERVICES GRID SECTION ---------- */
 
     .grid-container {
 
@@ -856,23 +955,113 @@ label h3 {
     }
 
 
-}  /*  -------------- END OF BREAKPOINT --------------------- */
+    /* ----------------------------------------------------------------- BREAKPOINT TABLET => INDEX.HTML #CLIENT QUOTES ------ */
+
+
+
+
+
+    /* ----------------------------------------------------------------- BREAKPOINT TABLET => SIGNUP.HTML ------ */
+
+    .sign-up-title-container {
+
+        width: 66%;
+    
+    }
+    
+    .sign-up-title {
+    
+        font-size: 2rem;
+
+    }
     
 
 
-/* ---------------------------------------------------------------------- OLD IPAD BREAKPOINT ---------------- */
+}  
+/* ---------------------------------------------------------------- END OF BREAKPOINT --------------------- */
+    
+
+
+/* ----------------------------------------------------------------------------------------------- OLD IPAD BREAKPOINT ---------------- */
 
     /* Sections look strange within a limited screen width. Unfortunately this screen width is the same as an old iPad. This media query tweaks the site so it maintains a consistent look on iPad devices */
 
-@media only screen and (min-width: 767px) and (max-width:782px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
 
+    .client-pic {
+        
+        max-width: 50%;
+        max-height: 50%;
+        margin: 0 25%;
+        padding: 1rem 1rem;
 
-   
+    }
+
+
 }
-/* ---------------------------------------------------------------- DESKTOP BREAKPOINT ------ */
+
+
+/* -------------- END OF MEDIA QUERY ------ */
+
+
+/* --------------------------------------------- -----------------------BREAKPOINT: LARGE TABLET > 800px ---------------- */
+
+
+@media only screen and (min-width: 799px) {
+
+
+    .button-and-article-container {
+        
+        max-width: 25rem;
+        left: 6rem;
+        margin-left: 2rem; 
+        
+    }
+
+
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1000px) {
+
+    /* --------------------------------------------------------------------------- */
+    .client-quotes-container {
+
+        width: 33%;
+
+    }
+
+    .client-pic {
+
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+
+    }
+
+
+
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- DESKTOP BREAKPOINT ------ */
 
 @media only screen and (min-width: 1024px) {
+
+    .client-quotes-container {
+
+        width: 33%;
+
+    }
+
+    .client-quotes-header {
+
+        font-size: 2rem;
+
+    }
+
+
+
 
 
     .class-image,
@@ -894,7 +1083,6 @@ label h3 {
 
         margin-left: 10%;
 
-
     }
 
 
@@ -909,13 +1097,13 @@ label h3 {
 
     .class-article .text-and-button-container p {
 
-        text-align: left;
+        text-align: center;
 
     }
 
     .pt-article .text-and-button-container p {
 
-          text-align: right;  
+          text-align: center;  
 
     }
 
@@ -933,6 +1121,25 @@ label h3 {
         left: 50%;
         transform: translate(-50%, -50%);
     
+    }
+
+
+    .meet-trainers .meet-trainers-header {
+
+        font-size: 2rem;
+        
+    
+    }
+
+    /* -------------------------------------------------------------------------------------------------DESKTOP BREAKPOINT => SIGNUP.HTML ------- */
+
+
+    .form-container {
+
+        margin: 0 auto;
+        height: 100%;
+        width: 66%;
+
     }
 
 

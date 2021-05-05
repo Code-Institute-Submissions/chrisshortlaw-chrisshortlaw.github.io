@@ -44,7 +44,7 @@
             </div>
 
             <div id="atomic-navbar" class="navbar-menu" role="navigation">
-                <div class="navbar-start">
+                <div class="navbar-start" role="navigation">
                     <a class="navbar-item" href="index.html">
                         <h3>Home</h3>
                     </a>
@@ -53,11 +53,11 @@
                         <h3>Sign Up</h3>
                     </a>
 
-                    <div class="navbar-item has-dropdown is-hoverable">
+                    <div class="navbar-item has-dropdown is-hoverable" role="navigation">
                         <a class="navbar-link">
                             <h3>Class Timetable</h3>
                         </a>
-                        <div class="navbar-dropdown">
+                        <div class="navbar-dropdown" role="navigation">
                             <a class="navbar-item" href="classes-morning.html">
                                 <h3>Morning</h3>
                             </a>
@@ -76,7 +76,7 @@
                     </a>
                 </div>
 
-                <div class="navbar-end is-flex is-align-content-center">
+                <div class="navbar-end is-flex is-align-content-center" role="navigation">
                 
                 </div>
 
@@ -84,65 +84,74 @@
         </nav>
 
         <!-- SIGNUP FORM -->
-    <section class="section signup-form light-grey-bg">
-        <h2 class="deep-orange-text">Sign Up Today!</h2>
-        <div class="columns">
-            <div class="column form-column">
-                <!--<p class="atom-logo-orange deep-orange-text"><i class="fas fa-atom"></i></p> -->
-                <div class="field form-container">
-                    <form action="" method="GET">
-                        <!-- <label class="label" for="fname"><h3>First Name:</h3></label> -->
-                        <div class="control">
-                            <input class="input is-medium is-rounded" type="text" id="fname" name="fname" aria-label="First name" placeholder="First Name"> 
-                        </div>
-                        <br>
-                        <!-- <label class="label" for="lname"><h3>Last Name:</h3></label> -->
-                        <div class="control">
-                            <input class="input is-medium is-rounded" type="text" id="lname" name="lname" aria-label="Last Name" placeholder="Last Name">
-                        </div>
-                        <br>
-                        <!-- <label class="label" for="email"><h3>Email:</h3></label> -->
-                        <div class="control">
-                            <input class="input is-medium is-rounded" type="email" id="email" name="email" placeholder="Email"> 
-                        </div>
-                        <br>
-                        <p class="interests">I am interested in:</p>
-                        <label class="checkbox" for="classes"><p>Classes</p></label>
-                        <span class="control">
-                                <input  type="checkbox" id="classes" name="classes" value="classes" aria-label="classes">
-                        </span>
-                        <br>
-                        <label class="checkbox" for="personal-training"><p>Personal Training</p></label> 
-                        <span class="control">
-                            <input type="checkbox" id="personal-training" name="personal-training" value="personal-training">
-                        </span>
-                            
-                        
-                        <br>
-                        <br>
-                        <div class="control">
-                            <input type="submit" class="button" value="Join!" action="">
-                        </div>
-                        
-                    </form>
+        <main>
+            <section class="section signup-form light-grey-bg">
+                <div class="container sign-up-title-container" role="heading">
+                    <h2 class="sign-up-title">Sign Up Today!</h2>
+                    <hr>
                 </div>
-            </div>
-            <div class="column map-column">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4515.739355511536!2d-6.0237237208017715!3d53.49227017984037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671d69b8b86fd5%3A0x1b7bf1c13fd911b2!2sLambay%20Castle!5e0!3m2!1sen!2sie!4v1619608423075!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </section>
+                <div class="columns">
+                    <div class="column form-column" role="grid">
+                        
+                        <div class="field form-container">
+                            <form action="" method="GET" role="form">
+                                <label class="label" for="fname"><h3>First Name:</h3></label> 
+                                <div class="control">
+                                    <input class="input is-medium is-rounded" type="text" id="fname" name="fname" aria-label="First name" placeholder="First Name" required /> 
+                                </div>
+                                <br>
+                                <label class="label" for="lname"><h3>Last Name:</h3></label>
+                                <div class="control">
+                                    <input class="input is-medium is-rounded" type="text" id="lname" name="lname" aria-label="Last Name" placeholder="Last Name" required />
+                                </div>
+                                <br>
+                                <label class="label" for="email"><h3>Email:</h3></label> 
+                                <div class="control">
+                                    <input class="input is-medium is-rounded" type="email" id="email" name="email" placeholder="Email" required /> 
+                                </div>
+                                <br>
+                                <p class="interests" role="heading">I am interested in:</p>
+                                <label class="checkbox" for="classes"><p id="classes-label">Classes</p></label>
+                                <span class="control">
+                                        <input type="checkbox" id="classes" name="classes" value="classes" aria-label="classes">
+                                </span>
+                                <br>
+                                <label class="checkbox" for="personal-training"><p id="classes-label">Personal Training</p></label> 
+                                <span class="control">
+                                    <input type="checkbox" id="personal-training" name="personal-training" value="personal-training">
+                                </span>
+                                    
+                                
+                                <br>
+                                <br>
+                                <div class="control">
+                                    <input type="submit" class="button" value="Join!" action="">
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                    <div class="column map-column">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4515.739355511536!2d-6.0237237208017715!3d53.49227017984037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671d69b8b86fd5%3A0x1b7bf1c13fd911b2!2sLambay%20Castle!5e0!3m2!1sen!2sie!4v1619608423075!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <!-- Footer -->
         <footer class="footer dark-grey-bg">
-            <h2 class="title is-4 deep-orange-text"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-            <div class="content has-text-centered deep-orange-text">
-                  
-                <p><a href="#" class="light-grey-text">Privacy Policy</a></p>
-                <p><a href="signup.html" class="light-grey-text">Sign Up</a></p>
-                <p><a href="index.html#location-and-contact" class="light-grey-text">Find Us</a></p>
-              
-              <p>©Chris Short 2021</p>
+            <div class="content has-text-centered">
+                <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
+                <p>
+                <a href="#" class="light-grey-text footer-links">Privacy Policy</a>
+                </p>
+                <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
+                <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
+                <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></span>
+                <span class="footer-socials" role="link"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+                <span class="footer-socials" role="link"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
+
+                <p class="deep-orange-text">©Chris Short 2021</p>
             </div>
         </footer>
 
