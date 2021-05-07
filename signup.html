@@ -6,40 +6,39 @@
     <meta charset="utf-8">
     <title> Atomic Fitness | Classes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Atomic Fitness">
+    <meta name="author" content="Chris Short">
     <meta name="description" content="Classes">
 
     <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
-    <script src="\assets\js\script.js"></script>
+    <script src="/assets/js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="\assets\css\style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <!-- Navbar -->
+<!-- Used Bulma's internal styles to add styles to the HTML reducing the need for CSS. Where CSS styles were needed to override standard an id was assigned to the element and styling applied -->
 
 <body class="has-navbar-fixed-top">
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand is-flex is-align-content-center">
-            <a class="navbar-item is-flex is-align-content-center atomic-brand" href="index.html">
+            <a class="navbar-item is-flex is-align-content-center atomic-brand" id="atomic-brand-link"
+                href="index.html">
                 <h1><i class="fas fa-atom"></i>atomic</h1>
             </a>
-
             <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
                 <i class="fab fa-twitter-square"></i>
             </a>
-
             <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
                 <i class="fab fa-instagram-square"></i>
             </a>
-
             <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
                 <i class="fab fa-facebook-square"></i>
             </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="atomic-navbar">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="atomic-navbar"
+                id="atomic-navbar">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -51,13 +50,11 @@
                 <a class="navbar-item" href="index.html">
                     <h3>Home</h3>
                 </a>
-
                 <a class="navbar-item" href="#">
                     <h3>Sign Up</h3>
                 </a>
-
                 <div class="navbar-item has-dropdown is-hoverable" role="navigation">
-                    <a class="navbar-link">
+                    <a class="navbar-link is-arrowless" id="nav-drop-grey" href="classes-morning.html">
                         <h3>Class Timetable</h3>
                     </a>
                     <div class="navbar-dropdown" role="navigation">
@@ -70,32 +67,26 @@
                         <a class="navbar-item" href="classes-evening.html">
                             <h3>Evening</h3>
                         </a>
-
                     </div>
                 </div>
-
                 <a class="navbar-item" href="index.html#location-and-contact">
                     <h3>Find Us</h3>
                 </a>
             </div>
-
             <div class="navbar-end is-flex is-align-content-center" role="navigation">
-
             </div>
-
         </div>
     </nav>
 
     <!-- SIGNUP FORM -->
-    <main>
-        <section class="section signup-form light-grey-bg">
-            <div class="container sign-up-title-container" role="heading">
-                <h2 class="sign-up-title">Sign Up Today!</h2>
-                <hr>
+    <main class="signup-main">
+        <section class="section signup-form light-grey-bg" ">
+            <div class=" container sign-up-title-container" role="heading">
+            <h2 class="sign-up-title">Sign Up Today!</h2>
+            <hr>
             </div>
             <div class="columns">
                 <div class="column form-column" role="grid">
-
                     <div class="field form-container">
                         <form action="" method="GET" role="form">
                             <label class="label" for="fname">
@@ -138,7 +129,6 @@
                                     value="personal-training">
                             </span>
 
-
                             <br>
                             <br>
                             <div class="control">
@@ -158,19 +148,16 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer dark-grey-bg">
+    <!-- Adding pb-3 to reduce standard padding on the bottom of 6rem to 3rem. This gives more balance to the footer -->
+    <footer class="footer dark-grey-bg pb-3 signup-footer">
         <div class="content has-text-centered">
             <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-
             <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
             <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
-            <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i
+            <span class="footer-socials"><a href="www.twitter.com" target="_blank"><i
                         class="fab fa-twitter-square"></i></a></span>
-            <span class="footer-socials" role="link"><a href="www.instagram.com"><i
-                        class="fab fa-instagram-square"></i></a></span>
-            <span class="footer-socials" role="link"><a href="www.facebook.com"><i
-                        class="fab fa-facebook-square"></i></a></span>
-
+            <span class="footer-socials"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+            <span class="footer-socials"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
             <p class="deep-orange-text">©Chris Short 2021</p>
         </div>
     </footer>
