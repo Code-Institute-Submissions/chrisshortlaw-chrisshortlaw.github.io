@@ -26,7 +26,7 @@
         <div class="navbar-brand is-flex is-align-content-center">
             <a class="navbar-item is-flex is-align-content-center atomic-brand" id="atomic-brand-link"
                 href="index.html">
-                <h1><i class="fas fa-atom"></i>atomic</h1>
+                <h2><i class="fas fa-atom"></i>atomic</h2>
             </a>
             <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
                 <i class="fab fa-twitter-square"></i>
@@ -80,7 +80,7 @@
 
     <!-- SIGNUP FORM -->
     <main class="signup-main">
-        <section class="section signup-form light-grey-bg" ">
+        <section class="section signup-form light-grey-bg">
             <div class=" container sign-up-title-container" role="heading">
             <h2 class="sign-up-title">Sign Up Today!</h2>
             <hr>
@@ -88,51 +88,51 @@
             <div class="columns">
                 <div class="column form-column" role="grid">
                     <div class="field form-container">
-                        <form action="" method="GET" role="form">
-                            <label class="label" for="fname">
-                                <h3>First Name:</h3>
+                        <form action="assets/output/output.txt" method="POST">
+                            <label class="label light-grey-text" for="fname">
+                                First Name:
                             </label>
                             <div class="control">
                                 <input class="input is-medium is-rounded" type="text" id="fname" name="fname"
                                     aria-label="First name" placeholder="First Name" required />
                             </div>
                             <br>
-                            <label class="label" for="lname">
-                                <h3>Last Name:</h3>
+                            <label class="label light-grey-text" for="lname">
+                                Last Name:
                             </label>
                             <div class="control">
                                 <input class="input is-medium is-rounded" type="text" id="lname" name="lname"
                                     aria-label="Last Name" placeholder="Last Name" required />
                             </div>
                             <br>
-                            <label class="label" for="email">
-                                <h3>Email:</h3>
+                            <label class="label light-grey-text" for="email">
+                                Email:
                             </label>
                             <div class="control">
                                 <input class="input is-medium is-rounded" type="email" id="email" name="email"
                                     placeholder="Email" required />
                             </div>
                             <br>
-                            <p class="interests" role="heading">I am interested in:</p>
-                            <label class="checkbox" for="classes">
-                                <p id="classes-label">Classes</p>
+                            <p class="interests light-grey-text" role="heading">I am interested in:</p>
+                            <label class="checkbox classes-label" for="classes">
+                                Classes
                             </label>
                             <span class="control">
-                                <input type="checkbox" id="classes" name="classes" value="classes" aria-label="classes">
+                                <input type="checkbox" id="classes" name="classes-pt" value="classes" aria-label="classes" required>
                             </span>
                             <br>
-                            <label class="checkbox" for="personal-training">
-                                <p id="classes-label">Personal Training</p>
+                            <label class="checkbox classes-label" for="personal-training">
+                                Personal Training
                             </label>
                             <span class="control">
-                                <input type="checkbox" id="personal-training" name="personal-training"
-                                    value="personal-training">
+                                <input type="checkbox" id="personal-training" name="classes-pt"
+                                    value="personal-training" required>
                             </span>
 
                             <br>
                             <br>
                             <div class="control">
-                                <input type="submit" class="button" value="Join!" action="">
+                                <input type="submit" class="button" value="Join!">
                             </div>
 
                         </form>
