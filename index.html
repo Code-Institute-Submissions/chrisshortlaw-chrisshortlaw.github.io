@@ -23,7 +23,7 @@
 <body class="has-navbar-fixed-top">
     <nav class="navbar is-fixed-top" aria-label="main navigation">
         <div class="navbar-brand is-flex is-align-content-center">
-            <a class="navbar-item is-flex is-align-content-center atomic-brand" href="#">
+            <a class="navbar-item is-flex is-align-content-center atomic-brand" id="atomic-brand-link" href="#">
                 <h1><i class="fas fa-atom"></i>atomic</h1>
             </a>
 
@@ -57,7 +57,7 @@
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
+                    <a class="navbar-link is-arrowless" id="nav-drop-grey" href="classes-morning.html">
                         <h3>Class Timetable</h3>
                     </a>
                     <div class="navbar-dropdown">
@@ -90,7 +90,7 @@
 
     <!-- Landing Page Section -->
 
-    <section class="landing-page-CTA has-navbar-fixed-top">
+    <div class="landing-page-CTA has-navbar-fixed-top">
         <div id="landing-page-hero">
             <div class="button-and-article-container">
                 <article class="landing-page-header">
@@ -103,17 +103,17 @@
 
                 </article>
                 <div class="button-container">
-                    <a class="button" role="button" aria-label="Join Now" href="signup.html">
+                    <a class="button" role="button" aria-label="Join Now" href="signup.html" id="hero-button">
                         <p>Join Now</p>
                     </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Location and Contact -->
 
-    <section class="location-and-contact section" id="location-and-contact">
+    <div class="location-and-contact section" id="location-and-contact">
         <div class="container">
             <div class="columns">
                 <div class="column is-2"></div>
@@ -150,17 +150,17 @@
                 </article>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Fist-bump Image -->
 
-    <section>
+    <div>
         <div class="fist-bump-image dark-grey-bg"></div>
-    </section>
+    </div>
 
     <!-- Client Endorsement Quotes -->
 
-    <section class="image-and-quotes section dark-grey-bg">
+    <div class="image-and-quotes section dark-grey-bg">
         <header>
             <div class="container client-quotes-container">
                 <h2 class="client-quotes-header light-grey-text">Why Use Atomic?</h2>
@@ -174,7 +174,7 @@
                         <div class="column image-column is-4-desktop is-5-tablet">
                             <img class="client-pic" src="/assets/images/pexels-kevin-bidwell-2380794.jpg" alt="">
                         </div>
-                        <div class="column has-text-centered">
+                        <div class="column has-text-centered quote-column">
                             <p class="client-name subtitle is-4">Tom</p>
                             <hr>
                             <p class="client-quote">The workouts really challenge you but are nicely set to your level.
@@ -190,7 +190,7 @@
                         <div class="column is-4-desktop is-5-tablet">
                             <img class="client-pic" src="/assets/images/pexels-murat-esibatir-4355346.jpg" alt="">
                         </div>
-                        <div class="column has-text-centered">
+                        <div class="column has-text-centered quote-column">
                             <p class="client-name subtitle is-4">Julia</p>
                             <hr>
                             <p class="client-quote">I really like the people and the variety of classes.</p>
@@ -204,14 +204,13 @@
                         <div class="column is-4-desktop is-5-tablet">
                             <img class="client-pic" src="/assets/images/pexels-bruno-salvadori-2245383.jpg" alt="">
                         </div>
-                        <div class="column has-text-centered">
+                        <div class="column has-text-centered quote-column">
                             <p class="client-name subtitle is-4">Avril</p>
                             <hr>
                             <p class="client-quote">I had not really used a gym before this and I was initially nervous.
                                 Atomic Fitness' personal training and coaching gave me the confidence to persevere. Now
                                 I go every day!</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="column">
@@ -219,7 +218,7 @@
                         <div class="column is-4-desktop is-5-tablet">
                             <img class="client-pic" src="/assets/images/pexels-sound-on-3756985.jpg" alt="">
                         </div>
-                        <div class="column has-text-centered">
+                        <div class="column has-text-centered quote-column">
                             <p class="client-name subtitle is-4">Mary</p>
                             <hr>
                             <p class="client-quote">I made a bet I could run a marathon, even though I could barely do 5
@@ -230,7 +229,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Services: Classes & Personal Training -->
     <!-- SERVICES: CSS GRID -->
@@ -239,14 +238,12 @@
         <div class="class-image deep-orange-bg">
             <h2>Classes</h2>
         </div>
-
         <article class="class-article deep-orange-bg">
             <div class="text-and-button-container">
-                <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find
-                    the right mix for you</p>
-                <a class="button dark-grey-bg" role="button" aria-label="Go to Classes Page"
+                <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you</p>
+                <a class="button dark-grey-bg light-grey-text" id="class-button" role="button" aria-label="Go to Classes Page"
                     href="/classes-morning.html">
-                    <p class="light-grey-text">More...</p>
+                    More...
                 </a>
             </div>
         </article>
@@ -257,8 +254,8 @@
         <article class="pt-article dark-grey-bg">
             <div class="text-and-button-container">
                 <p>With our experienced coaches, get a tailored work-out programme designed for you.</p>
-                <a class="button deep-orange-bg" role="button" aria-label="Go to Sign-Up Page" href="signup.html">
-                    <p class="light-grey-text">More...</p>
+                <a class="button deep-orange-bg light-grey-text" id="coach-button" role="button" aria-label="Go to Sign-Up Page" href="signup.html">
+                    More...
                 </a>
             </div>
         </article>
@@ -266,56 +263,47 @@
 
     <!-- Trainer Profiles -->
 
-    <section class="trainers section light-grey-bg">
-
+    <div class="trainers section light-grey-bg">
         <article class="meet-trainers">
             <div class="container trainer-header-container has-text-centered">
                 <h2 class="dark-grey-text meet-trainers-header">Meet Our Trainers</h2>
                 <hr>
             </div>
             <div class="container">
-                <div class="columns">
-
-
-                    <div class="column has-text-centered">
+                <div class="trainer-grid-container">
+                    <div class="trainer-profile-1 has-text-centered">
                         <img class="profile-1" src="assets/images/pexels-sindre-strøm-1040880.jpg" alt="" />
                         <h2>Mark</h2>
                         <p>Owner & Trainer</p>
                     </div>
-                    <div class="column has-text-centered">
+                    <div class="trainer-profile-2 has-text-centered">
                         <img class="profile-2" src="assets/images/pexels-pixabay-415829.jpg" alt="" />
                         <h2>Lisa</h2>
                         <p>Trainer</p>
                     </div>
-                    <div class="column has-text-centered">
-                        <img class="profile-3" src="assets/images/pexels-pixabay-220453.jpg" alt="" />
+                    <div class="trainer-profile-3 has-text-centered">
+                        <img class="profile-3" src="assets/images/pexels-vadim-birsan-2460488.jpg" alt="" />
                         <h2>Bart</h2>
                         <p>Trainer</p>
                     </div>
-
                 </div>
             </div>
         </article>
-
-    </section>
+    </div>
 
 
     <!-- Footer -->
-    <footer class="footer dark-grey-bg">
+    <footer class="footer dark-grey-bg pb-3">
         <div class="content has-text-centered">
             <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-           
             <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
             <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
             <span class="footer-socials"><a href="www.twitter.com" target="_blank"><i
                         class="fab fa-twitter-square"></i></a></span>
             <span class="footer-socials"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
             <span class="footer-socials"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
-
             <p class="deep-orange-text">©Chris Short 2021</p>
         </div>
     </footer>
-
 </body>
-
 </html>
