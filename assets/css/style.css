@@ -249,7 +249,7 @@ hr {
 
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 24px;
 
 }
 
@@ -339,7 +339,8 @@ hr {
 
 }
 
-.location-and-contact hr {
+.location-section hr,
+.contact-section hr {
     
     margin: 24px auto;
     width: 50%;
