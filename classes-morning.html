@@ -10,12 +10,12 @@
     <meta name="description" content="Classes">
 
     <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
-    <script src="\assets\js\script.js"></script>
+    <script src="/assets/js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="\assets\css\style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <!--  NavBar -->
@@ -24,7 +24,7 @@
 
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand is-flex is-align-content-center">
-            <a class="navbar-item is-flex is-align-content-center atomic-brand" href="index.html">
+            <a class="navbar-item is-flex is-align-content-center atomic-brand" id="atomic-brand-link" href="index.html">
                 <h1><i class="fas fa-atom"></i>atomic</h1>
             </a>
 
@@ -58,11 +58,11 @@
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
+                    <a class="navbar-link is-arrowless" id="nav-drop-grey" href="classes-morning.html">
                         <h3>Class Timetable</h3>
                     </a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="../classes-morning.html">
+                        <a class="navbar-item" href="classes-morning.html">
                             <h3>Morning</h3>
                         </a>
                         <a class="navbar-item" href="classes-afternoon.html">
@@ -300,19 +300,15 @@
         </section>
     </main>
 
-    <footer class="footer dark-grey-bg">
+    <footer class="footer dark-grey-bg pb-3">
         <div class="content has-text-centered">
             <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-
             <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
             <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
-            <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i
+            <span class="footer-socials"><a href="www.twitter.com" target="_blank"><i
                         class="fab fa-twitter-square"></i></a></span>
-            <span class="footer-socials" role="link"><a href="www.instagram.com"><i
-                        class="fab fa-instagram-square"></i></a></span>
-            <span class="footer-socials" role="link"><a href="www.facebook.com"><i
-                        class="fab fa-facebook-square"></i></a></span>
-
+            <span class="footer-socials"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+            <span class="footer-socials"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
             <p class="deep-orange-text">©Chris Short 2021</p>
         </div>
     </footer>
