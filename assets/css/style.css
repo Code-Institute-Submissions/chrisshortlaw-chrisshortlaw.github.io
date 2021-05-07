@@ -108,7 +108,14 @@ hr {
     
 }
 
-.atomic-brand h1 {
+#atomic-brand-link:hover {
+
+    
+    color:#CD3110;
+
+}
+
+.atomic-brand h2 {
 
     font-size: 1.25rem;
     font-weight: 900;
@@ -120,6 +127,12 @@ hr {
     color: #CD3110;
     font-size: 1.25rem;
 
+}
+
+a.navbar-item:hover,
+a#nav-drop-grey:hover {
+
+    background-color: #D6CFCB;
 }
 
 
@@ -135,11 +148,17 @@ hr {
 
 }
 
-.navbar {
+.navbar,
+.navbar-menu{
 
     background-color: #423E3B;
     font-size: 1.25rem;
 
+}
+
+
+.navbar-link:focus {
+    background-color:#D6CFCB;
 }
 
 .navbar-item h3 {
@@ -154,6 +173,16 @@ hr {
 
     margin-left: 1.25rem;
 
+}
+
+.navbar-dropdown {
+
+    background-color: #D6CFCB;
+}
+
+.navbar-dropdown:hover {
+
+    background-color: #D6CFCB;
 }
 
 
@@ -231,6 +260,8 @@ hr {
  
 }
 
+/* Webkit Backdrop filter acts to blur the background images, enhancing depth and the readbility of any foreground text. It is deactivated by default on Firefox, however a semi transparent underlay ensures reability and minimizes diminution in experience. */
+
 .landing-page-header {
 
     color: #ffffff;
@@ -288,10 +319,18 @@ hr {
 
 .button-container .button p {
 
-    color: #ffffff;
+    color: #D6CFCB;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
+
+}
+
+#hero-button:hover,
+#hero-button:hover.button p {
+
+    background-color:#D6CFCB;
+    color: #CD3110;
 
 }
 
@@ -443,9 +482,16 @@ hr {
 
     font-weight: 500;
     font-size: 1rem;
+    margin-top: 1.5rem;
 
 }
 
+.quote-column hr {
+
+    margin: 0 auto;
+    width: 66%;
+    
+}
 
 
 
@@ -456,6 +502,8 @@ hr {
     padding: 6rem 0 8rem;
 
 }
+
+/* CSS GRID is used here to align the divs and permit custom configurations with media queries */
 
 .grid-container {
 
@@ -539,23 +587,50 @@ hr {
 
 }
 
+
 .class-image h2,
 .pt-image h2 {
 
     position: absolute;
     top: 66%;
     left: 1rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
-    background-color:rgba(66, 62, 59, 0.65)
+    background-color:rgba(66, 62, 59, 0.65);
+    padding: .75rem;
 
 } 
+
+#class-button,
+#coach-button {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+#class-button:hover {
+
+    background-color: #D6CFCB;
+    color:#423E3B;
+
+}
+
+#coach-button:hover {
+
+    background-color:#D6CFCB;
+    color:#CD3110;
+
+}
 
 
 
 /* --------------------------------------------------------------------------------------SECTION: MEET OUR TRAINERS ----------------*/
+
+
+
 
 
 .meet-trainers {
@@ -581,6 +656,29 @@ hr {
     width: 33%;
     margin: 0 auto;
 
+}
+
+.trainer-grid-container {
+   
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "tprofile-1 tprofile-1 tprofile-1"
+            "tprofile-2 tprofile-2 tprofile-2"
+            "tprofile-3 tprofile-3 tprofile-3";
+}
+
+.trainer-profile-1 {
+    grid-area: tprofile-1;
+}
+
+.trainer-profile-2 {
+    grid-area: tprofile-2;
+}
+
+.trainer-profile-3 {
+    grid-area: tprofile-3;
 }
 
 .meet-trainers h2 {
@@ -612,6 +710,18 @@ hr {
 
 
 /* -------------------------------------------------------------------------------------------------- SIGNUP.HTML ---------------------- */
+.success-image {
+
+    background-image: url(assets/images/pexels-victor-freitas-931321.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    
+
+}
+
+
 
 .sign-up-title-container {
 
@@ -684,22 +794,35 @@ label h3 {
 
 }
 
+.map-column {
+
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+}
+
 .map-column iframe {
 
     height: 100%;
     width: 100%;
-    padding: .5rem;
+    min-height: 300px;
 
 }
 
 .interests {
-
     font-weight: 500;
-    color: #ffffff;
-
+    color: #ff
 }
 
-#classes-label:hover {
+label.label.light-grey-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.classes-label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.classes-label:hover {
 
     color: #CD3110;
 }
@@ -709,11 +832,22 @@ label h3 {
     color: #ffffff;
 }
 
-/* ------------------------------------------------------------------------------------------------------ FOOTER ------------ */
 
+/* Large Tablets often left whitespace at the bottom of the signup page. To remove this and ensure the footer covers remianing whitespace the calc function is used along with a fixed height for the body element and form. This ensures there is no whitespace at the base of a page.  */
 
+.signup-main {
+    min-height: 100%;
+    
+}
 
+.signup-footer {
+    
+    min-height: calc(100vh - 800px);
+}
 
+.signup-form {
+    min-height: 800px;
+}
 
 /* --------------------------------------------------------------------------------------------------- CLASSES.HTML  ---- */
 
@@ -801,7 +935,7 @@ label h3 {
 .gym-class-header {
 
     position: absolute;
-    color: #000000;
+    color: #423E3b;
     font-size: 300%;
     font-weight: 700;
     z-index: 10;
@@ -814,7 +948,7 @@ label h3 {
 
 }
 
-.gym-class-header h1 {
+.gym-class-header h2 {
 
     font-weight: 700;
     
@@ -890,7 +1024,7 @@ label h3 {
 }
 
 .blank {
-    background-color:#D6CFCB;
+    background-color:#f87c632c;
     box-shadow: 0px 0px;
 
 }
@@ -961,6 +1095,18 @@ label h3 {
     /* ----------------------------------------------------------------- BREAKPOINT TABLET => INDEX.HTML #CLIENT QUOTES ------ */
 
 
+    /* ---------------------------------------------------------------- BREAKPOINT TABLET => INDEX.HTML #MEET OUR TRAINERS */
+
+    .trainer-grid-container {
+   
+
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto;
+            grid-template-areas:
+                "tprofile-1 tprofile-1 tprofile-1 tprofile-2 tprofile-2 tprofile-2"
+                "tprofile-3 tprofile-3 tprofile-3 tprofile-3 tprofile-3 tprofile-3";
+    }
 
 
 
@@ -976,6 +1122,10 @@ label h3 {
     
         font-size: 2rem;
 
+    }
+
+    .map-column iframe {
+        min-height: 500px;
     }
     
 
@@ -1020,6 +1170,10 @@ label h3 {
         left: 6rem;
         margin-left: 2rem; 
         
+    }
+
+    .signup-footer {
+        padding-top: 8rem;
     }
 
 
@@ -1077,7 +1231,7 @@ label h3 {
     .class-image h2,
     .pt-image h2 {
 
-        font-size: 4rem;
+        font-size: 2rem;
     
     }
 
@@ -1129,10 +1283,21 @@ label h3 {
 
     .meet-trainers .meet-trainers-header {
 
-        font-size: 2rem;
-        
+        font-size: 2rem;    
     
     }
+
+
+    .trainer-grid-container {
+   
+
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto ;
+        grid-template-areas:
+            "tprofile-1 tprofile-1 tprofile-2 tprofile-2 tprofile-3 tprofile-3";
+}
+
 
     /* -------------------------------------------------------------------------------------------------DESKTOP BREAKPOINT => SIGNUP.HTML ------- */
 
@@ -1144,9 +1309,6 @@ label h3 {
         width: 66%;
 
     }
-
-
-
 
 }
 
