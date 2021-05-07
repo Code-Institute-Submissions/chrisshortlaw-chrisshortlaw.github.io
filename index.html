@@ -1,304 +1,321 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title> Atomic Fitness | Classes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Atomic Fitness">
-        <meta name="description" content="Classes">
 
-        <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
-        <script src="\assets\js\script.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="\assets\css\style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title> Atomic Fitness | Classes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chris Short">
+    <meta name="description" content="Classes">
+
+    <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
 <!-- Navbar -->
 
-    <body class="has-navbar-fixed-top">
-        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand is-flex is-align-content-center">
-                <a class="navbar-item is-flex is-align-content-center atomic-brand" href="#">
-                    <h1><i class="fas fa-atom"></i>atomic</h1>
-                </a>
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" aria-label="main navigation">
+        <div class="navbar-brand is-flex is-align-content-center">
+            <a class="navbar-item is-flex is-align-content-center atomic-brand" href="#">
+                <h1><i class="fas fa-atom"></i>atomic</h1>
+            </a>
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
+                <i class="fab fa-twitter-square"></i>
+            </a>
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
-                    <i class="fab fa-instagram-square"></i>
-                </a>
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
+                <i class="fab fa-instagram-square"></i>
+            </a>
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.facebook.com/">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.facebook.com/">
+                <i class="fab fa-facebook-square"></i>
+            </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="atomic-navbar">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="atomic-navbar" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#">
+                    <h3>Home</h3>
+                </a>
+
+                <a class="navbar-item" href="signup.html">
+                    <h3>Sign Up</h3>
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <h3>Class Timetable</h3>
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="classes-morning.html">
+                            <h3>Morning</h3>
+                        </a>
+                        <a class="navbar-item" href="classes-afternoon.html">
+                            <h3>Afternoon</h3>
+                        </a>
+                        <a class="navbar-item" href="classes-evening.html">
+                            <h3>Evening</h3>
+                        </a>
+
+                    </div>
+                </div>
+
+                <a class="navbar-item" href="#location-and-contact">
+                    <h3>Find Us</h3>
                 </a>
             </div>
 
-            <div id="atomic-navbar" class="navbar-menu" role="navigation">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="#">
-                        <h3>Home</h3>
-                    </a>
-    
-                    <a class="navbar-item" href="signup.html">
-                        <h3>Sign Up</h3>
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            <h3>Class Timetable</h3>
-                        </a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="classes-morning.html">
-                                <h3>Morning</h3>
-                            </a>
-                            <a class="navbar-item" href="classes-afternoon.html">
-                                <h3>Afternoon</h3>
-                            </a>
-                            <a class="navbar-item" href="classes-evening.html">
-                                <h3>Evening</h3>
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <a class="navbar-item" href="#location-and-contact">
-                        <h3>Find Us</h3>
-                    </a>
-                </div>
-
-                <div class="navbar-end is-flex is-align-content-center">
-                
-                </div>
+            <div class="navbar-end is-flex is-align-content-center">
 
             </div>
-        </nav>
-        
-<!-- END OF NAVBAR -->
 
-<!-- Landing Page Section -->
-        
-            <section class="landing-page-CTA has-navbar-fixed-top">
-                <div id="landing-page-hero">
-                    <div class="button-and-article-container">
-                        <article class="landing-page-header">
-                            <h2>Unlock your potential</h2>
-                            <h2>Join us today!</h2>
-                            <hr>
-                            <h3>Welcome to your local gym.</h3>
-                            
-                        </article>
-                        <div class="button-container">
-                            <a class="button" href="signup.html"><p>Join Now</p></a>
-                        </div>
-                    </div>
+        </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- Landing Page Section -->
+
+    <section class="landing-page-CTA has-navbar-fixed-top">
+        <div id="landing-page-hero">
+            <div class="button-and-article-container">
+                <article class="landing-page-header">
+                    <header>
+                        <h2>Unlock your potential</h2>
+                        <h2>Join us today!</h2>
+                        <hr>
+                        <h3>Welcome to your local gym.</h3>
+                    </header>
+
+                </article>
+                <div class="button-container">
+                    <a class="button" role="button" aria-label="Join Now" href="signup.html">
+                        <p>Join Now</p>
+                    </a>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
     <!-- Location and Contact -->
 
-            <section class="location-and-contact section" id="location-and-contact">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-2"></div>
-                        <article class="column is-4 location-section">
-                            
-                            <span class="location-arrow">
-                                <a href="https://goo.gl/maps/4HgstqmNucUyXjw26" target="_blank"><i class="fas fa-location-arrow"></i></a>
-                            </span>
-                            <span>
-                                <hr>
-                            </span>
-                            <span class="address">
-                                <a href="https://goo.gl/maps/4HgstqmNucUyXjw26" target="_blank">
-                                    <p>Green Park</p>
-                                    <p>Green Town</p>
-                                    <p>Dublin</p>
-                                </a>
-                            </span>
-                        </article>
-                        <article class="column is-4 contact-section">
-                            <span class="location-arrow">
-                                <a href="#"><i class="fas fa-phone"></i></a>
-                            </span>
-                            <span>
-                                <hr>
-                            </span>
-                            <span class="contact">
-                                <a href="#">
-                                    <p>555-8133</p>
-                                    <p>email@fake.ec</p>
-                                    <p>&nbsp;</p>
-                                </a>
-                            </span>
-                            <div class="column is-2"></div>
-                        </article>
+    <section class="location-and-contact section" id="location-and-contact">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-2"></div>
+                <article class="column is-4 location-section">
+
+                    <span class="location-arrow">
+                        <a href="https://goo.gl/maps/4HgstqmNucUyXjw26" target="_blank"><i
+                                class="fas fa-location-arrow"></i></a>
+                    </span>
+
+                    <hr>
+
+                    <div class="address">
+
+                        <p>Green Park</p>
+                        <p>Green Town</p>
+                        <p>Dublin</p>
+
                     </div>
-                </div>
-            </section>
+                </article>
+                <article class="column is-4 contact-section">
+                    <span class="location-arrow">
+                        <a href="#"><i class="fas fa-phone"></i></a>
+                    </span>
+
+                    <hr>
+
+                    <div class="contact">
+                        <p>555-8133</p>
+                        <p>email@fake.ec</p>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="column is-2"></div>
+                </article>
+            </div>
+        </div>
+    </section>
 
     <!-- Fist-bump Image -->
 
-            <section>
-                <div class="fist-bump-image dark-grey-bg"></div>
-            </section>
-        
+    <section>
+        <div class="fist-bump-image dark-grey-bg"></div>
+    </section>
+
     <!-- Client Endorsement Quotes -->
 
-            <section class="image-and-quotes section dark-grey-bg">
-                <div class="container client-quotes-container">
-                    <h2 class="client-quotes-header light-grey-text">Why Use Atomic?</h2>
-                    <hr>
-                </div>
-                <div class="container image-and-quotes-container">
+    <section class="image-and-quotes section dark-grey-bg">
+        <header>
+            <div class="container client-quotes-container">
+                <h2 class="client-quotes-header light-grey-text">Why Use Atomic?</h2>
+                <hr>
+            </div>
+        </header>
+        <div class="container image-and-quotes-container">
+            <div class="columns">
+                <div class="column">
                     <div class="columns">
-                        <div class="column">
-                            <div class="columns">
-                                <div class="column image-column is-4-desktop is-5-tablet">
-                                    <img class="client-pic" src="/assets/images/pexels-kevin-bidwell-2380794.jpg" alt="">
-                                </div>
-                                <div class="column has-text-centered">
-                                    <p class="client-name subtitle is-4">Tom</p>
-                                    <hr>
-                                    <p class="client-quote">The workouts really challenge you but are nicely set to your level. 
-                                        I had tried a few places before but I found they were either much too advanced or much too simple. 
-                                        The trainers at Atomic help set individual goals and workouts that are suited to you.</p>
-                                </div>
-                            </div>
+                        <div class="column image-column is-4-desktop is-5-tablet">
+                            <img class="client-pic" src="/assets/images/pexels-kevin-bidwell-2380794.jpg" alt="">
                         </div>
-                        <div class="column">
-                            <div class="columns">
-                                <div class="column is-4-desktop is-5-tablet">
-                                    <img class= "client-pic" src="/assets/images/pexels-murat-esibatir-4355346.jpg" alt="">
-                                </div>
-                                <div class="column has-text-centered">
-                                    <p class="client-name subtitle is-4">Julia</p>
-                                    <hr>
-                                    <p class="client-quote">I really like the people and the variety of classes.</p>
-                                </div>
-                            </div>
+                        <div class="column has-text-centered">
+                            <p class="client-name subtitle is-4">Tom</p>
+                            <hr>
+                            <p class="client-quote">The workouts really challenge you but are nicely set to your level.
+                                I had tried a few places before but I found they were either much too advanced or much
+                                too simple.
+                                The trainers at Atomic help set individual goals and workouts that are suited to you.
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="column">
                     <div class="columns">
-                        <div class="column">
-                            <div class="columns">
-                                <div class="column is-4-desktop is-5-tablet">
-                                    <img class ="client-pic" src="/assets/images/pexels-bruno-salvadori-2245383.jpg" alt="">
-                                </div>
-                                <div class="column has-text-centered">
-                                    <p class="client-name subtitle is-4">Avril</p>
-                                    <hr>
-                                    <p class="client-quote">I had not really used a gym before this and I was initially nervous. Atomic Fitness' personal training and coaching gave me the confidence to persevere. Now I go every day!</p>
-                                </div>
+                        <div class="column is-4-desktop is-5-tablet">
+                            <img class="client-pic" src="/assets/images/pexels-murat-esibatir-4355346.jpg" alt="">
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="client-name subtitle is-4">Julia</p>
+                            <hr>
+                            <p class="client-quote">I really like the people and the variety of classes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-4-desktop is-5-tablet">
+                            <img class="client-pic" src="/assets/images/pexels-bruno-salvadori-2245383.jpg" alt="">
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="client-name subtitle is-4">Avril</p>
+                            <hr>
+                            <p class="client-quote">I had not really used a gym before this and I was initially nervous.
+                                Atomic Fitness' personal training and coaching gave me the confidence to persevere. Now
+                                I go every day!</p>
+                        </div>
 
-                            </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-4-desktop is-5-tablet">
+                            <img class="client-pic" src="/assets/images/pexels-sound-on-3756985.jpg" alt="">
                         </div>
-                        <div class="column">
-                            <div class="columns">
-                                <div class="column is-4-desktop is-5-tablet">
-                                    <img class="client-pic" src="/assets/images/pexels-sound-on-3756985.jpg" alt="">
-                                </div>
-                                <div class="column has-text-centered">
-                                    <p class="client-name subtitle is-4">Mary</p>
-                                    <hr>
-                                    <p class="client-quote">I made a bet I could run a marathon, even though I could barely do 5 km. Atomic's classes and personal training helped me to prepare. I was really pleased with the results and I have completed 3 marathons.</p>
-                                </div>
-                            </div>
+                        <div class="column has-text-centered">
+                            <p class="client-name subtitle is-4">Mary</p>
+                            <hr>
+                            <p class="client-quote">I made a bet I could run a marathon, even though I could barely do 5
+                                km. Atomic's classes and personal training helped me to prepare. I was really pleased
+                                with the results and I have completed 3 marathons.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
     <!-- Services: Classes & Personal Training -->
     <!-- SERVICES: CSS GRID -->
 
-            <div class="grid-container">
-                <div class="class-image deep-orange-bg"><h2>Classes</h2></div>
-                
-                    <article class="class-article deep-orange-bg">
-                        <div class="text-and-button-container">
-                            <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find the right mix for you</p>
-                            <a class="button dark-grey-bg" href="/classes-morning.html">
-                                <p class="light-grey-text" >More...</p>
-                            </a>
-                        </div>
-                    </article>
-                
-                <div class="pt-image dark-grey-bg"><h2>Coaching</h2></div>
-                <article class="pt-article dark-grey-bg">
-                    <div class="text-and-button-container">
-                        <p>With our experienced coaches, get a tailored work-out programme designed for you.</p>
-                        <a class="button deep-orange-bg" href="signup.html">
-                            <p class="light-grey-text" >More...</p>
-                        </a>
-                    </div>
-                </article>
+    <div class="grid-container">
+        <div class="class-image deep-orange-bg">
+            <h2>Classes</h2>
+        </div>
+
+        <article class="class-article deep-orange-bg">
+            <div class="text-and-button-container">
+                <p>Whether you have never used an assault bike or are a seasoned power-lifter, at Atomic you will find
+                    the right mix for you</p>
+                <a class="button dark-grey-bg" role="button" aria-label="Go to Classes Page"
+                    href="/classes-morning.html">
+                    <p class="light-grey-text">More...</p>
+                </a>
             </div>
+        </article>
+
+        <div class="pt-image dark-grey-bg">
+            <h2>Coaching</h2>
+        </div>
+        <article class="pt-article dark-grey-bg">
+            <div class="text-and-button-container">
+                <p>With our experienced coaches, get a tailored work-out programme designed for you.</p>
+                <a class="button deep-orange-bg" role="button" aria-label="Go to Sign-Up Page" href="signup.html">
+                    <p class="light-grey-text">More...</p>
+                </a>
+            </div>
+        </article>
+    </div>
 
     <!-- Trainer Profiles -->
-            
-            <section class="trainers section light-grey-bg">
-                
-                <article class="meet-trainers">
-                    <div class="container trainer-header-container has-text-centered">
-                        <h2 class="dark-grey-text meet-trainers-header">Meet Our Trainers</h2>
-                        <hr>
-                    </div>
-                    <div class="container">
-                        <div class="columns">
-                            
-                            
-                            <div class="column has-text-centered">
-                                <img class="profile-1" src="assets/images/pexels-sindre-strøm-1040880.jpg" alt="" />
-                                <h2>Mark</h2>
-                                <p>Owner & Trainer</p>
-                            </div>
-                            <div class="column has-text-centered">
-                                <img class="profile-2" src="assets/images/pexels-pixabay-415829.jpg" alt="" />
-                                <h2>Lisa</h2>
-                                <p>Trainer</p>
-                            </div>
-                            <div class="column has-text-centered">
-                                <img class="profile-3" src="assets/images/pexels-pixabay-220453.jpg" alt="" />
-                                <h2>Bart</h2>
-                                <p>Trainer</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </article>
 
-            </section> 
-        
+    <section class="trainers section light-grey-bg">
 
-<!-- Footer -->
-        <footer class="footer dark-grey-bg">
-            <div class="content has-text-centered">
-                <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-                <p>
-                <a href="#" class="light-grey-text footer-links">Privacy Policy</a>
-                </p>
-                <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
-                <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
-                <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></span>
-                <span class="footer-socials" role="link"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
-                <span class="footer-socials" role="link"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
-
-                <p class="deep-orange-text">©Chris Short 2021</p>
+        <article class="meet-trainers">
+            <div class="container trainer-header-container has-text-centered">
+                <h2 class="dark-grey-text meet-trainers-header">Meet Our Trainers</h2>
+                <hr>
             </div>
-        </footer>
+            <div class="container">
+                <div class="columns">
 
-    </body>
+
+                    <div class="column has-text-centered">
+                        <img class="profile-1" src="assets/images/pexels-sindre-strøm-1040880.jpg" alt="" />
+                        <h2>Mark</h2>
+                        <p>Owner & Trainer</p>
+                    </div>
+                    <div class="column has-text-centered">
+                        <img class="profile-2" src="assets/images/pexels-pixabay-415829.jpg" alt="" />
+                        <h2>Lisa</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <div class="column has-text-centered">
+                        <img class="profile-3" src="assets/images/pexels-pixabay-220453.jpg" alt="" />
+                        <h2>Bart</h2>
+                        <p>Trainer</p>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer dark-grey-bg">
+        <div class="content has-text-centered">
+            <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
+           
+            <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
+            <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
+            <span class="footer-socials"><a href="www.twitter.com" target="_blank"><i
+                        class="fab fa-twitter-square"></i></a></span>
+            <span class="footer-socials"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
+            <span class="footer-socials"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
+
+            <p class="deep-orange-text">©Chris Short 2021</p>
+        </div>
+    </footer>
+
+</body>
 
 </html>
-
-

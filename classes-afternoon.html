@@ -1,139 +1,142 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title> Atomic Fitness | Classes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Atomic Fitness">
-        <meta name="description" content="Classes">
 
-        <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
-        <script src="\assets\js\script.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="\assets\css\style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title> Atomic Fitness | Classes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Atomic Fitness">
+    <meta name="description" content="Classes">
+
+    <script src="https://use.fontawesome.com/641d9d9e38.js"></script>
+    <script src="\assets\js\script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="\assets\css\style.css">
+</head>
 
 <!-- Navbar with Burger-->
 
-    <body class="has-navbar-fixed-top">
-        
-        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand is-flex is-align-content-center">
-                <a class="navbar-item is-flex is-align-content-center atomic-brand" href="index.html">
-                    <h1><i class="fas fa-atom"></i>atomic</h1>
-                </a>
+<body class="has-navbar-fixed-top">
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand is-flex is-align-content-center">
+            <a class="navbar-item is-flex is-align-content-center atomic-brand" href="index.html">
+                <h1><i class="fas fa-atom"></i>atomic</h1>
+            </a>
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
-                    <i class="fab fa-instagram-square"></i>
-                </a>
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://twitter.com/">
+                <i class="fab fa-twitter-square"></i>
+            </a>
 
-                <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+
+            <a class="navbar-item is-flex is-align-content-center" target="_blank" href="https://www.instagram.com/">
+                <i class="fab fa-facebook-square"></i>
+            </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="atomic-navbar">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="atomic-navbar" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#">
+                    <h3>Home</h3>
+                </a>
+
+                <a class="navbar-item" href="/signup.html">
+                    <h3>Sign Up</h3>
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <h3>Class Timetable</h3>
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="classes-morning.html">
+                            <h3>Morning</h3>
+                        </a>
+                        <a class="navbar-item" href="classes-afternoon.html">
+                            <h3>Afternoon</h3>
+                        </a>
+                        <a class="navbar-item" href="classes-evening.html">
+                            <h3>Evening</h3>
+                        </a>
+
+                    </div>
+                </div>
+
+                <a class="navbar-item" href="index.html#location-and-contact">
+                    <h3>Find Us</h3>
                 </a>
             </div>
 
-            <div id="atomic-navbar" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="#">
-                        <h3>Home</h3>
-                    </a>
-    
-                    <a class="navbar-item" href="/signup.html">
-                        <h3>Sign Up</h3>
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            <h3>Class Timetable</h3>
-                        </a>
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="classes-morning.html">
-                                <h3>Morning</h3>
-                            </a>
-                            <a class="navbar-item" href="classes-afternoon.html">
-                                <h3>Afternoon</h3>
-                            </a>
-                            <a class="navbar-item" href="classes-evening.html">
-                                <h3>Evening</h3>
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <a class="navbar-item" href="index.html#location-and-contact">
-                        <h3>Find Us</h3>
-                    </a>
-                </div>
-
-                <div class="navbar-end is-flex is-align-content-center">
-                
-                </div>
+            <div class="navbar-end is-flex is-align-content-center">
 
             </div>
-        </nav>
-<!--END OF NAVBAR-->
 
-        
-        <section id="gym-class-hero-afternoon">
-            <div class="gym-class-header">
-                <h1 class="dark-grey-text">
-                    Afternoon Classes
-                </h1>
-            </div>
-            <div class="opaque-overlay-white"></div>
-         
-        </section>
-
-<!-- TABS SECTION -->
-
-        <div class="tabs light-grey-bg class-tab is-centered is-toggle is-boxed is-large" id="gym-class-tab">
-            <ul>
-                <li ><a href="classes-morning.html">Morning Classes</a></li>
-                <li class="gym-class-is-active"><a href="classes-afternoon.html">Afternoon Classes</a></li>
-                <li><a href="classes-evening.html">Evening Classes</a></li>
-            </ul>
         </div>
+    </nav>
+    <!--END OF NAVBAR-->
 
-        <main role="main">
-            <section class="section morning-classes gym-class-tiles light-grey-bg">
-                <div class="container">
 
-    <!-- Tile Headers --->
+    <section id="gym-class-hero-afternoon">
+        <div class="gym-class-header">
+            <h1 class="dark-grey-text">
+                Afternoon Classes
+            </h1>
+        </div>
+        <div class="opaque-overlay-white"></div>
 
-                    <div class="tile is-ancestor">
-                        <div class="tile is-parent is-12 is-hidden-mobile">
-                            <div class="tile is-1 is-child"></div>
-                            <div class="tile is-child">
-                                <h1 class="title is-6 weekday-head">Monday - Friday</h1>
-                            </div>
-                            <div class="tile is-child">
-                                <h1 class="title is-6 saturday-head">Saturday</h1>
-                            </div>
-                            <div class="tile is-child">
-                                <h1 class="title is-6 sunday-head">Sunday</h1>
-                            </div>
+    </section>
+
+    <!-- TABS SECTION -->
+
+    <div class="tabs light-grey-bg class-tab is-centered is-toggle is-boxed is-large" id="gym-class-tab">
+        <ul>
+            <li><a href="classes-morning.html">Morning Classes</a></li>
+            <li class="gym-class-is-active"><a href="classes-afternoon.html">Afternoon Classes</a></li>
+            <li><a href="classes-evening.html">Evening Classes</a></li>
+        </ul>
+    </div>
+
+    <main role="main">
+        <section class="section morning-classes gym-class-tiles light-grey-bg">
+            <div class="container">
+
+                <!-- Tile Headers --->
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-12 is-hidden-mobile">
+                        <div class="tile is-1 is-child"></div>
+                        <div class="tile is-child">
+                            <h1 class="title is-6 weekday-head">Monday - Friday</h1>
+                        </div>
+                        <div class="tile is-child">
+                            <h1 class="title is-6 saturday-head">Saturday</h1>
+                        </div>
+                        <div class="tile is-child">
+                            <h1 class="title is-6 sunday-head">Sunday</h1>
                         </div>
                     </div>
+                </div>
 
-    <!-- Tiles containing class times & class description -->
+                <!-- Tiles containing class times & class description -->
 
                 <div class="container">
                     <div class="tile is-ancestor">
                         <div class="tile is-parent">
                             <div class="tile is-1 is-child">
-                                <h2 class="title is-6 class-time">Noon</h2>  
+                                <h2 class="title is-6 class-time">Noon</h2>
                             </div>
                             <article class="tile is-child box strength">
                                 <h2 class="gym-strength title is-6">Strength & Conditioning</h2>
@@ -141,12 +144,12 @@
                                 <p class="gym-class-time">12.00 - 13.00</p>
                                 <p class="gym-instructor">Lisa</p>
                             </article>
-                        
+
                             <article class="tile is-child box cardio">
-                                    <h2 class="title is-6">Cardio</h2>
-                                    <p class="gym-day">Saturday</p>
-                                    <p class="gym-class-time">12.00 - 13.00</p>
-                                    <p class="gym-instructor">Lisa</p>
+                                <h2 class="title is-6">Cardio</h2>
+                                <p class="gym-day">Saturday</p>
+                                <p class="gym-class-time">12.00 - 13.00</p>
+                                <p class="gym-instructor">Lisa</p>
                             </article>
                             <article class="tile is-child box elite">
                                 <h2 class="title is-6">Elite Cardio</h2>
@@ -156,7 +159,7 @@
                             </article>
                         </div>
                     </div>
-                
+
                     <div class="tile is-ancestor">
                         <div class="tile is-parent">
                             <div class="tile is-1 is-child">
@@ -169,12 +172,12 @@
                                 <p class="gym-class-time">13.00 - 14.00</p>
                                 <p class="gym-instructor">Bart</p>
                             </article>
-                        
+
                             <article class="tile is-child box elite">
-                                    <h2 class="title is-6">Elite Strength & Conditioning</h2>
-                                    <p class="gym-day">Saturday</p>
-                                    <p class="gym-class-time">13.00 - 14.00</p>
-                                    <p class="gym-instructor">Mark</p>
+                                <h2 class="title is-6">Elite Strength & Conditioning</h2>
+                                <p class="gym-day">Saturday</p>
+                                <p class="gym-class-time">13.00 - 14.00</p>
+                                <p class="gym-instructor">Mark</p>
                             </article>
 
                             <article class="tile is-child box cardio">
@@ -185,12 +188,12 @@
                             </article>
                         </div>
                     </div>
-                
+
                     <div class="tile is-ancestor">
                         <div class="tile is-parent">
                             <div class="tile is-1 is-child">
                                 <h2 class="title is-6 class-time">14.00</h2>
-                                
+
                             </div>
                             <article class="tile is-child box blank is-hidden-mobile">
                                 <p></p>
@@ -198,19 +201,19 @@
                                 <p></p>
                                 <p></p>
                             </article>
-                        
+
                             <article class="tile is-child box strength">
-                                    <h2 class="title is-6">Strength & Conditioning</h2>
-                                    <p class="gym-day">Saturday</p>
-                                    <p class="gym-class-time">14.00 - 15.00</p>
-                                    <p class="gym-instructor">Mark</p>
+                                <h2 class="title is-6">Strength & Conditioning</h2>
+                                <p class="gym-day">Saturday</p>
+                                <p class="gym-class-time">14.00 - 15.00</p>
+                                <p class="gym-instructor">Mark</p>
                             </article>
                             <article class="tile is-child box cardio">
                                 <h2 class="title is-6">Cardio</h2>
                                 <p class="gym-day">Sunday</p>
                                 <p class="gym-class-time">14.00 - 15.00</p>
                                 <p class="gym-instructor">Lisa</p>
-                        </article>
+                            </article>
                         </div>
                     </div>
 
@@ -226,7 +229,7 @@
                                 <p class="gym-class-time">15.00 - 16.00</p>
                                 <p class="gym-instructor">Bart</p>
                             </article>
-                        
+
                             <article class="tile is-child box elite">
                                 <h2 class="title is-6">Elite Strength & Conditioning</h2>
                                 <p class="gym-day">Saturday</p>
@@ -247,7 +250,7 @@
                         <div class="tile is-parent">
                             <div class="tile is-1 is-child">
                                 <h2 class="title is-6 class-time">16.00</h2>
-                                
+
                             </div>
                             <article class="tile is-child box cardio">
                                 <h2 class="gym-strength title is-6">Cardio</h2>
@@ -255,7 +258,7 @@
                                 <p class="gym-class-time">16.00 - 17.00</p>
                                 <p class="gym-instructor">Mark</p>
                             </article>
-                        
+
                             <article class="tile is-child box strength">
                                 <h2 class="title is-6">Strength & Conditioning</h2>
                                 <p class="gym-day">Saturday</p>
@@ -272,26 +275,28 @@
                         </div>
                     </div>
                 </div>
-            
-            
-            </section>
-        </main>
 
 
-        <footer class="footer dark-grey-bg">
-            <div class="content has-text-centered">
-                <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
-                <p>
-                <a href="#" class="light-grey-text footer-links">Privacy Policy</a>
-                </p>
-                <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
-                <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
-                <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></span>
-                <span class="footer-socials" role="link"><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></span>
-                <span class="footer-socials" role="link"><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></span>
+        </section>
+    </main>
 
-                <p class="deep-orange-text">©Chris Short 2021</p>
-            </div>
-        </footer>
-    </body>
+
+    <footer class="footer dark-grey-bg">
+        <div class="content has-text-centered">
+            <h2 class="title is-4 deep-orange-text" id="atomic-brand"><i class="fas fa-atom"></i>Atomic Fitness</h2>
+
+            <p><a href="signup.html" class="light-grey-text footer-links">Sign Up</a></p>
+            <p><a href="index.html#location-and-contact" class="light-grey-text footer-links">Find Us</a></p>
+            <span class="footer-socials" role="link"><a href="www.twitter.com" target="_blank"><i
+                        class="fab fa-twitter-square"></i></a></span>
+            <span class="footer-socials" role="link"><a href="www.instagram.com"><i
+                        class="fab fa-instagram-square"></i></a></span>
+            <span class="footer-socials" role="link"><a href="www.facebook.com"><i
+                        class="fab fa-facebook-square"></i></a></span>
+
+            <p class="deep-orange-text">©Chris Short 2021</p>
+        </div>
+    </footer>
+</body>
+
 </html>

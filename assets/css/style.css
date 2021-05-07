@@ -249,7 +249,7 @@ hr {
 
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 36px;
 
 }
 
@@ -257,6 +257,14 @@ hr {
 
     margin: .75rem auto;
     width: 75%;
+
+}
+
+.landing-page-header header h3 {
+
+    font-size: 1rem;
+    font-weight: 400;
+    
 
 }
 
@@ -331,7 +339,7 @@ hr {
 
 }
 
-.location-and-contact span hr {
+.location-and-contact hr {
     
     margin: 24px auto;
     width: 50%;
@@ -340,18 +348,12 @@ hr {
     
 }
 
-.address a, 
-.contact a {
+.address p, 
+.contact p {
 
     color:#423E3B;
     margin: 0 auto;
     width: 50%;
-
-}
-
-.address a p,
-.contact a p {
-
     font-weight: 600;
 
 }
